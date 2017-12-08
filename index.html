@@ -9,52 +9,81 @@
   <title>SurreyCodeCamp • Peer to peer tech learning community in BC</title>
   <link rel="stylesheet" href="css/mainsheet.css">
 </head>
-<body>
-  <header id="header">
+<body data-spy="scroll" data-target="#navbar" data-offset="25">
+  <header id="header" class="fixed-top">
     <div class="container">
       <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">
-          <img src="assets/SurreyCodeCampLogoNew.png" width="30" height="30" class="d-inline-block align-top" alt="">SurreyCodeCamp</a>
+          <img src="assets/SurreyCodeCampLogoNew.png" width="30" height="30" class="d-inline-block align-top" alt=""> SurreyCodeCamp</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">History</a>
+            <a class="nav-link" href="#history">History</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Sponsors</a>
+            <a class="nav-link" href="#meetups">Meetups</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sponsors">Sponsors</a>
           </li>
         </ul>
       </div>
       </nav>
     </div>
   </header>
-  <section id=home class="Hello">I am hello
-  </section>
-  <section id=about >I am about section</section>
-  <section id=history >I am history</section>
-  <section>Our next meetup</section>
-  <section>Friends of the community</section>
-
-<footer>
-  <ul>
-    <li>Our Code of Conduct</li>
-    <li>Terms of use for members</li>
-    <li>Sponsor Us</li>
-  </ul>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <article id="main" class="container">
+    <section id="home" class="anchor Hello">
+      <h1>Welcome To SurreyCodeCamp</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum lacus eget dolor feugiat, vitae semper est tristique. Duis ut ullamcorper ante, at finibus turpis. Nam pharetra turpis urna, nec ullamcorper purus laoreet ut. Donec egestas, ligula vitae tempor condimentum, ex est posuere nibh, pulvinar tempor elit enim quis enim. Fusce sodales sit amet enim eget cursus. Nunc malesuada blandit libero, eu laoreet magna tincidunt id. Etiam vulputate, erat vel condimentum ornare, massa odio venenatis nisi, sit amet lacinia quam augue sed est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+    </section>
+    <section id="about" class="anchor">
+      <h1>About SurreyCodeCamp</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum lacus eget dolor feugiat, vitae semper est tristique. Duis ut ullamcorper ante, at finibus turpis. Nam pharetra turpis urna, nec ullamcorper purus laoreet ut. Donec egestas, ligula vitae tempor condimentum, ex est posuere nibh, pulvinar tempor elit enim quis enim. Fusce sodales sit amet enim eget cursus. Nunc malesuada blandit libero, eu laoreet magna tincidunt id. Etiam vulputate, erat vel condimentum ornare, massa odio venenatis nisi, sit amet lacinia quam augue sed est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p></p>
+    </section>
+    <section id="history" class="anchor">
+      <h1>SurreyCodeCamp's History</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum lacus eget dolor feugiat, vitae semper est tristique. Duis ut ullamcorper ante, at finibus turpis. Nam pharetra turpis urna, nec ullamcorper purus laoreet ut. Donec egestas, ligula vitae tempor condimentum, ex est posuere nibh, pulvinar tempor elit enim quis enim. Fusce sodales sit amet enim eget cursus. Nunc malesuada blandit libero, eu laoreet magna tincidunt id. Etiam vulputate, erat vel condimentum ornare, massa odio venenatis nisi, sit amet lacinia quam augue sed est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+    </section>
+    <section id="meetups" class="anchor">
+      <h1>Meetups</h1>
+      <h4>Meetups are every other Wednesday! Drop on by see what we're all about!</h4>
+      <p> -- Information of out next meetup here!! --</p>
+    </section>
+    <section id="sponsors" class="anchor">
+      <h1>Sponsors</h1>
+      <p> -- Images and a link to each sponsor here --</p>
+    </section>
+  </article>
+<footer id="footer">
+  <div class="container">
+    <ul>
+      <li>Our Code of Conduct</li>
+      <li>Terms of use for members</li>
+      <li>Sponsor Us</li>
+    </ul>
+  </div>
+</footer>
+<!--CDN link for  bootstrap-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-</footer>
-</body>
 <!--CDN link for  TweenMax-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+<script type="text/javascript">
+  $('[data-spy="scroll"]').on('activate.bs.scrollspy', function () {
+    alert("yes");
+  })
+</script>
+</body>
+
+
 </html>
