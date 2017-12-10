@@ -38,7 +38,7 @@ body{
 section{
   float: left;
   width: 100%;
-  height: 600px;
+  height: 400px;
 }
 .text-primary{
   color: #4B4A4C !important;
@@ -79,9 +79,29 @@ section{
 /*
   Main Content
 */
+.jumbotron{
+  background-color: grey;
+  padding-bottom: 100px;
+}
 #home{
   position: relative;
   top: 80px;
+}
+#meetup{
+  background-color: #EEEEEE;
+}
+#about{
+  background-color: #F4F4F4;
+}
+#history{
+  background-color: #EEEEEE;
+}
+#sponsors{
+  background-color: #80B05A;
+  transform: scale(1.1) rotate(-2deg);
+}
+#sponsors div{
+  transform: rotate(3deg);
 }
 .anchor{
   padding-top: 80px;
@@ -92,7 +112,7 @@ section{
 */
 #footer{
   position: relative;
-  top:0;
+  top:200px;
   width: 100%;
 }
 /*
