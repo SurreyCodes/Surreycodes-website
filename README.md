@@ -12,6 +12,17 @@ Raw HTML, CSS, Javascript so far.
 
 Bootstrap and G-sap later
 
+## surreycodes file for React App -- Dependancies
+
+Download yarn for MacOS, Linux, or Windows.
+
+then add Dependancies to surreycodes folder >>
+
+yarn add react
+yarn add react-dom
+yarn add react-router-dom
+
+
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://github.com/Surreycodecamp/Surreycodecamp-website/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
