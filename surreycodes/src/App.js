@@ -1,40 +1,13 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './Header';
+
 
 class App extends Component {
   render() {
     return (
       <div classNameName="App">
-        <header id="header" className="fixed-top">
-          <nav id="navbar" className="navbar navbar-expand-lg">
-            <a className="navbar-brand" href="#">
-              <img id="logo" src="assets/SurreyCodeCampLogoNew.svg" width="30" height="30" className="d-inline-block align-top" alt="Surrey Code Camp"/></a>
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span className="navbar-toggler-icon"><i className="fa fa-bars" aria-hidden="true"></i>
-      </span>
-            </button>
-              <div className="collapse navbar-collapse" id="navbarNav">
-                <ul id="navbar-nav" className="navbar-nav">
-                  <li className="nav-item active">
-                    <a className="nav-link" href="#home">Home <span className="sr-only">(current)</span></a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#meetup">Meetup</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#about">About</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#history">History</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#sponsors">Sponsors</a>
-                  </li>
-                </ul>
-              </div>
-            </nav>
-          </header>
+        <Header />
           <article id="home" className="anchor">
             <div id="hook" className="jumbotron jumbotron-fluid">
               <div className="container">
