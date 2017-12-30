@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Logo from './assets/SurreyCodeCampLogoNew.svg';
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
   render(){
@@ -7,8 +8,8 @@ class Header extends Component {
       <div>
         <header id="header" className="fixed-top">
           <nav id="navbar" className="navbar navbar-expand-lg">
-            <a className="navbar-brand" href="#">
-              <img id="logo" src={Logo} width="30" height="30" className="d-inline-block align-top" alt="Surrey Code Camp"/></a>
+            <Link className="navbar-brand" to="/">
+              <img id="logo" src={Logo} width="30" height="30" className="d-inline-block align-top" alt="Surrey Code Camp"/></Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"><i className="fa fa-bars" aria-hidden="true"></i>
       </span>
@@ -16,19 +17,19 @@ class Header extends Component {
               <div className="collapse navbar-collapse" id="navbarNav">
                 <ul id="navbar-nav" className="navbar-nav">
                   <li className="nav-item active">
-                    <a className="nav-link" href="#home">Home <span className="sr-only">(current)</span></a>
+                    <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#meetup">Meetup</a>
+                    <Link className="nav-link" to="/meetup">Meetup</Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#about">About</a>
+                    <Link className="nav-link" to="/about">About</Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#history">History</a>
+                    <Link className="nav-link" to="/history">History</Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#sponsors">Sponsors</a>
+                    <Link className="nav-link" to="/sponsors">Sponsors</Link>
                   </li>
                 </ul>
               </div>
