@@ -18,7 +18,8 @@ Bootstrap and G-sap later
 
 then add Dependancies to surreycodes folder >>
 
-```yarn add react
+```
+yarn add react
 yarn add react-dom
 yarn add react-router-dom
 ```
