@@ -14,32 +14,34 @@ Bootstrap and G-sap later
 
 ## surreycodes file for React App -- Dependancies
 
-Download yarn for MacOS, Linux, or Windows.
+[Download yarn for MacOS, Linux, or Windows](https://yarnpkg.com/en/docs/install#mac-tab)
 
 then add Dependancies to surreycodes folder >>
 
+```
 yarn add react
 yarn add react-dom
 yarn add react-router-dom
+```
 
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/Surreycodecamp/Surreycodecamp-website/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/Surreycodes/Surreycodes-website/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 Basically, Contribute to make them better taking in consideration every angle that someone could need.
 
 ## Versioning
 
-###### Version control  0.0.1
+###### Version control  0.1.0
 
 ## Authors
 
 *The SurreyCodeCamp Community*
 
-**SurreyCodeCamp** - *Initial work* - [SurreyCodeCamp](https://github.com/Surrey-Code-Camp)
+**SurreyCodeCamp** - *Initial work* - [SurreyCodes](https://github.com/SurreyCodes)
 
-See also the list of [contributors](https://github.com/Surrey-Code-Camp/Templates/blob/master/Contributors) who participated in this project.
+See also the list of [contributors](https://github.com/SurreyCodes/Templates/blob/master/Contributors) who participated in this project.
 
 *Make sure to add your name to the contributors list after doing a contribution.
 
