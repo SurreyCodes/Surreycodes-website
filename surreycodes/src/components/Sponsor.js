@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './Header';
+import Footer from './Footer';
 
 
 class Sponsor extends Component {
@@ -13,6 +14,7 @@ class Sponsor extends Component {
             <p> -- Images and a link to each sponsor here --</p>
             </div>
           </section>
+          <Footer />
       </div>
     );
   }
