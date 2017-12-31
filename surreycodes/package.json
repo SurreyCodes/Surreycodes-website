@@ -7,6 +7,7 @@
     "react-dom": "^16.2.0",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.17",
+    "react-scrollchor": "^4.1.0"
     "webpack": "3.10.0"
   },
   "scripts": {
