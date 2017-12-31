@@ -5,12 +5,19 @@ import Hack4Good from '../assets/SurreyCodeCampLogoNew.svg';
 
 
 class Community extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      image: {Fulltime}
+    };
+  }
   render(){
     return(
-      <div id="community" className="text-primary">
+      <div id="community">
         <div className="container">
-          <div className="card-deck">
-            <Card image={Fulltime} text="Our Full Time Program" alternate="Full Time Program"/>
+          <div>
+            <Card image={this.state.image} text="Our Full Time Program" alternate="Full Time Program"/>
             <Card image={Slack} text="Our Slack Channel" alternate="Slack" />
             <Card image={Slack} text="Jobs Available" alternate="Jobs" />
             <Card image={Hack4Good} text="#Hack 4 Good" alternate="Hack 4 Good" />
@@ -29,10 +36,10 @@ class Community extends Component {
 class Card extends Component {
   render(){
     return(
-      <div className="card">
-        <img className="card-img-top img-surreycodes" src={this.props.image} alt={this.props.alternate}></img>
-        <div className="card-body">
-          <p className="card-text text-center">{this.props.text}</p>
+      <div>
+        <img className="img-surreycodes" src={this.props.image} alt={this.props.alternate}></img>
+        <div>
+          <p>{this.props.text}</p>
         </div>
       </div>
     );

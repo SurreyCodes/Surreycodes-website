@@ -7,7 +7,7 @@ class Sponsor extends Component {
     return(
       <div>
         <Header />
-          <section id="sponsors" className="anchor text-primary">
+          <section id="sponsors">
             <div className="container">
             <h1>Sponsors</h1>
             <p> -- Images and a link to each sponsor here --</p>
