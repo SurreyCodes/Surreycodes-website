@@ -4,7 +4,7 @@ class Footer extends Component {
   render(){
     return(
       <div>
-        <footer id="footer" className="container-fluid">
+        <footer id="footer">
           <div className="container">
             <ul>
               <li>Our Code of Conduct</li>
