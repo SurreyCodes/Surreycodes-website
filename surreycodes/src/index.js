@@ -11,14 +11,12 @@ import {
   Route,
 } from 'react-router-dom';
 
-ReactDOM.render(<Router>
-  <div>
-    <Route exact path="/" component={App}/>
-    <Route path="/sponsors" component={Sponsor}/>
-  </div>
-
-
-</Router>
-
+ReactDOM.render(
+  <Router>
+    <div>
+      <Route exact path="/" component={App}/>
+      <Route path="/sponsors" component={Sponsor}/>
+    </div>
+  </Router>
 , document.getElementById('root'));
 registerServiceWorker();

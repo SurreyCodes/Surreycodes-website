@@ -30,6 +30,10 @@ body{
   overflow-y: scroll;
   background-color: #F4F4F4;
 }
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
 article{
   width: 100%;
   float: left;

@@ -7,8 +7,8 @@ class Header extends Component {
     return(
       <header id="header" >
         <nav id="navbar" >
-          <Link to="/">
-            <img id="logo" src={Logo} width="30" height="30" alt="Surrey Code Camp"/>
+          <Link id="logo" to="/">
+            <img src={Logo} width="30" height="30" alt="Surrey Code Camp"/>
           </Link>
             <ul id="navbar-nav">
               <li>
