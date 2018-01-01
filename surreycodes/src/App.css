@@ -103,8 +103,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
 SECTION ONE -- HOOK & MEETUP COMPONENTS
 //////////////////////////////////////////
 */
-
-
+#section-one{
+  margin-top: 80px;
+}
 /*
 Hook Component
 */
@@ -151,9 +152,6 @@ Hook Component
 .jumbotron{
   background-color: grey;
   padding-bottom: 100px;
-}
-#section-one{
-  margin-top: 0;
 }
 /*
 Meetup Component
