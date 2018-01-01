@@ -29,6 +29,8 @@ body{
   position: relative;
   overflow-y: scroll;
   background-color: #F4F4F4;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 .container{
   width: 80%;
@@ -91,6 +93,12 @@ Use it to make something cool, have fun, and share what you've learned with othe
   left: 6em;
 }
 
+:root{
+  --blue: #47B0FF;
+  --light-green: #80B05A;
+  --dark-green: #006300;
+  --gray: #4B4A4C;
+}
 
 /*
 //////////////////////////////////////////
@@ -102,12 +110,50 @@ SECTION ONE -- HOOK & MEETUP COMPONENTS
 /*
 Hook Component
 */
+#hook{
+  position: static;
+}
+.hero {
+  width: 100%;
+  max-width: 2800px;
+  height: 25%;
+  text-align: center;
+  margin: 0;
+  position: relative;
+}
+.hero .img-hero{
+  width: 100%;
+  max-width: 100%;
+  position: static;
+  opacity: 0.8;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    color: var(--gray);
+}
+@media all and (max-width: 768px) {
+  .hero{
+    height: 50vw;
+  }
+  .hero h1 {
+    font-size: 6vw;
+    top: 10vw;
+  }
+}
 .jumbotron{
   background-color: grey;
   padding-bottom: 100px;
 }
 #section-one{
-  margin-top: 80px;
+  margin-top: 0;
 }
 /*
 Meetup Component
