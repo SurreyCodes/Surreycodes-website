@@ -40,10 +40,16 @@ article{
   width: 100%;
   float: left;
 }
-.text-color{
-  color: #4B4A4C !important;
+:root{
+  --blue: #47B0FF;
+  --light-green: #80B05A;
+  --dark-green: #006300;
+  --gray: #4B4A4C;
 }
-
+.text-color{
+  color: var(--gray) !important;
+}
+@import url('https://fonts.googleapis.com/css?family=Orbitron|Roboto+Mono:300,400');
 
 /*
 ///////////////////
@@ -63,7 +69,7 @@ Tags: Coding community, website programming
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 #header{
-  background-color: #006300;
+  background-color: var(--dark-green);
   box-shadow: 0 0 1px #000000;
 }
 #navbar{
@@ -92,14 +98,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
   top: 1.5em;
   left: 6em;
 }
-
-:root{
-  --blue: #47B0FF;
-  --light-green: #80B05A;
-  --dark-green: #006300;
-  --gray: #4B4A4C;
-}
-
 /*
 //////////////////////////////////////////
 SECTION ONE -- HOOK & MEETUP COMPONENTS
@@ -126,13 +124,15 @@ Hook Component
   max-width: 100%;
   position: static;
   opacity: 0.8;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
 }
 
 .hero h1 {
     font-size: 2.5em;
+    font-family: 'Roboto Mono', monospace;
     margin: auto;
     position: absolute;
-    top: 50%;
+    top: 49%;
     left: 0;
     right: 0;
     bottom: 0;
