@@ -29,6 +29,8 @@ body{
   position: relative;
   overflow-y: scroll;
   background-color: #F4F4F4;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 .container{
   width: 80%;
@@ -38,10 +40,16 @@ article{
   width: 100%;
   float: left;
 }
-.text-color{
-  color: #4B4A4C !important;
+:root{
+  --blue: #47B0FF;
+  --light-green: #80B05A;
+  --dark-green: #006300;
+  --gray: #4B4A4C;
 }
-
+.text-color{
+  color: var(--gray) !important;
+}
+@import url('https://fonts.googleapis.com/css?family=Orbitron|Roboto+Mono:300,400');
 
 /*
 ///////////////////
@@ -61,7 +69,7 @@ Tags: Coding community, website programming
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 #header{
-  background-color: #006300;
+  background-color: var(--dark-green);
   box-shadow: 0 0 1px #000000;
 }
 #navbar{
@@ -90,24 +98,60 @@ Use it to make something cool, have fun, and share what you've learned with othe
   top: 1.5em;
   left: 6em;
 }
-
-
 /*
 //////////////////////////////////////////
 SECTION ONE -- HOOK & MEETUP COMPONENTS
 //////////////////////////////////////////
 */
-
-
+#section-one{
+  margin-top: 80px;
+}
 /*
 Hook Component
 */
+#hook{
+  position: static;
+}
+.hero {
+  width: 100%;
+  max-width: 2800px;
+  height: 25%;
+  text-align: center;
+  margin: 0;
+  position: relative;
+}
+.hero .img-hero{
+  width: 100%;
+  max-width: 100%;
+  position: static;
+  opacity: 0.8;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    font-family: 'Roboto Mono', monospace;
+    margin: auto;
+    position: absolute;
+    top: 49%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    color: var(--gray);
+}
+@media all and (max-width: 768px) {
+  .hero{
+    height: 50vw;
+  }
+  .hero h1 {
+    font-size: 6vw;
+    top: 10vw;
+  }
+}
 .jumbotron{
   background-color: grey;
   padding-bottom: 100px;
-}
-#section-one{
-  margin-top: 80px;
 }
 /*
 Meetup Component
