@@ -45,10 +45,10 @@ article{
   --light-green: #80B05A;
   --dark-green: #006300;
   --gray: #4B4A4C;
+  --black: #000000;
+  --white: #FFFFFF;
 }
-.text-color{
-  color: var(--gray) !important;
-}
+
 @import url('https://fonts.googleapis.com/css?family=Orbitron|Roboto+Mono:300,400');
 
 /*
@@ -69,42 +69,50 @@ Tags: Coding community, website programming
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 #header{
+  position: fixed;
+  width: 100%;
   background-color: var(--dark-green);
-  box-shadow: 0 0 1px #000000;
-}
-#navbar{
-  background: none;
-}
-.active{
-  color: #80B05A !important;
-}
-.navbar .nav-link{
-  font-size: 2em;
-  color: #fff;
-}
-.navbar .nav-link:hover{
-  font-weight: bold;
-}
-#navbar-nav{
-  transform: translateX(65em);
-}
-.navbar-toggler span i{
-  font-size: 1.5em;
-  color: #fff;
+  box-shadow: 0 0 1px var(--black);
+  z-index: 99;
 }
 #logo{
+  position: relative;
+  float: left;
   transform: scale(3);
   position: relative;
-  top: 1.5em;
+  top: 3em;
   left: 6em;
 }
+#navbar{
+  position: relative;
+  margin: 20px;
+  float: right;
+  width: auto;
+  list-style: none;
+}
+#navbar li{
+  display: inline-block;
+}
+#navbar .nav-link{
+  text-decoration: none;
+  padding: 16px 16px;
+  color: var(--white);
+}
+#navbar .nav-link:hover{
+  border-bottom: 4px solid var(--light-green);
+}
+
+.active{
+  color: var(--light-green) !important;
+}
+
 /*
 //////////////////////////////////////////
 SECTION ONE -- HOOK & MEETUP COMPONENTS
 //////////////////////////////////////////
 */
 #section-one{
-  margin-top: 80px;
+  margin-top: 60px;
 }
 /*
 Hook Component
@@ -127,7 +135,6 @@ Hook Component
   opacity: 0.8;
   filter: alpha(opacity=80); /* For IE8 and earlier */
 }
-
 .hero h1 {
     font-size: 2.5em;
     font-family: 'Roboto Mono', monospace;
