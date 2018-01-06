@@ -75,43 +75,74 @@ Use it to make something cool, have fun, and share what you've learned with othe
 */
 #header{
   position: fixed;
+  display: flex;
   width: 100%;
   background-color: var(--dark-green);
   box-shadow: 0 0 1px var(--black);
+  z-index: 98;
+}
+.header-flex-container{
+  display: flex;
+  flex: 1 1 0;
+  justify-content: center;
+  align-items: center;
+}
+.logo{
+  transition: 2s;
+  position: relative;
+  transform: scale(3);
+  transform-origin: top;
   z-index: 99;
 }
-#logo{
+.logo-true{
+  transition: 2s;
   position: relative;
-  float: left;
-  transform: scale(3);
-  position: relative;
-  top: 3em;
-  left: 6em;
+  transform: scale(1.5);
+  top: 2px;
+  z-index: 99;
 }
-#navbar{
+.navbar{
+  flex: 1.5 0 0;
+  display: flex;
+  justify-content: center;
   position: relative;
-  margin: 20px;
-  float: right;
-  width: auto;
   list-style: none;
 }
-#navbar li{
-  display: inline-block;
-}
-#navbar .nav-link{
+.nav-link{
+  flex: none;
+  padding: 14px 16px;
   text-decoration: none;
-  padding: 16px 16px;
   color: var(--white);
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-family: 'Orbitron', sans-serif;
   font-weight: bold;
+  text-align: center;
 }
-#navbar .nav-link:hover{
+.navbar .nav-link:hover{
   border-bottom: 4px solid var(--light-green);
 }
 
 .active{
   border-bottom: 4px solid var(--light-green);
+}
+/*
+  Media Queries
+*/
+@media only screen and (max-width: 1200px) {
+  .navbar{
+    margin-right: 20px;
+  }
+}
+@media only screen and (max-width: 860px) {
+  #header{
+  }
+  .navbar{
+    flex-direction: column;
+  }
+  .toggler{
+    display: flex;
+
+  }
 }
 
 /*
@@ -242,12 +273,4 @@ Sponsor Component
   position: relative;
   top:200px;
   width: 100%;
-}
-/*
-  Media Queries
-*/
-@media only screen and (max-width: 1200px) {
-  #navbar-nav{
-    transform: translateX(15em);
-  }
 }
