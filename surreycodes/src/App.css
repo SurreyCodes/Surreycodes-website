@@ -50,6 +50,11 @@ article{
 }
 
 @import url('https://fonts.googleapis.com/css?family=Orbitron|Roboto+Mono:300,400');
+/*
+Reminder on how to asign these fonts:
+  font-family: 'Orbitron', sans-serif;
+  font-family: 'Roboto', sans-serif;
+*/
 
 /*
 ///////////////////
@@ -97,6 +102,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
   text-decoration: none;
   padding: 16px 16px;
   color: var(--white);
+  font-size: 1.4em;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
 }
 #navbar .nav-link:hover{
   border-bottom: 4px solid var(--light-green);
