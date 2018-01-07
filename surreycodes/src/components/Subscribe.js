@@ -3,12 +3,14 @@ import React, { Component } from 'react';
 class Subscribe extends Component {
   render(){
     return(
-      <div id="subscribe-surreycodes" className="container">
-        <h1>Subscribe to our newsletter</h1>
-        <form>
-          <input type="email" placeholder="example@surreycodes.com"></input>
-          <button type="submit">SUBSCRIBE</button>
-        </form>
+      <div className="container">
+        <div id="subscribe-surreycodes">
+          <h1>Subscribe To Our Newsletter</h1>
+          <form>
+            <input type="email" placeholder="example@surreycodes.com"></input>
+            <button className="cr-scan-ct" type="submit">SUBSCRIBE</button>
+          </form>
+        </div>
       </div>
     );
   }
