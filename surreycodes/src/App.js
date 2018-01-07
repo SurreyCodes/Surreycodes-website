@@ -8,14 +8,32 @@ import Community from './components/Community';
 import Subscribe from './components/Subscribe';
 import Friends from './components/Friends';
 import Footer from './components/Footer';
+import WhenLeavingView from './components/WhenLeavingView';
 
 
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+
+    };
+    this.handleScroll = this.handleScroll.bind(this);
+  }
+
+  handleScroll(){
+    alert("hey");
+  }
+
   render() {
     return (
-      <div className="App">
-        <Header />
+      <div className="App" onScroll={this.handleScroll}>
+        <WhenLeavingView>
+          {({ isLeavingView }) =>
+            <Header animate={isLeavingView}/>
+          }
+        </WhenLeavingView>
           <article id="section-one">
             <Hook />
             <Meetup />
@@ -24,8 +42,11 @@ class App extends Component {
             <About />
           </article>
           <article id="section-three">
+            <div className="green-section"></div>
             <Community />
             <Subscribe />
+          </article>
+          <article id="section-four">
             <Friends />
           </article>
         <Footer />
