@@ -42,8 +42,11 @@ class App extends Component {
             <About />
           </article>
           <article id="section-three">
+            <div className="green-section"></div>
             <Community />
             <Subscribe />
+          </article>
+          <article id="section-four">
             <Friends />
           </article>
         <Footer />
