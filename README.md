@@ -22,6 +22,7 @@ then add Dependancies to surreycodes folder >>
 yarn add react
 yarn add react-dom
 yarn add react-router-dom
+Yarn add react-waypoint
 
 if you get exit code 127 you need the above ^^
 if you get exit code 1 you need to add webpack >>
