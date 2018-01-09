@@ -72,6 +72,8 @@ article{
   width: 100%;
   float: left;
 }
+button:focus {outline:0;}
+
 :root{
   --blue: #47B0FF;
   --light-green: #80B05A;
@@ -113,32 +115,24 @@ Use it to make something cool, have fun, and share what you've learned with othe
   box-shadow: 0 0 1px var(--black);
   z-index: 999;
 }
-.header-flex-container{
-  display: flex;
-  flex: 1 1 0;
-  justify-content: center;
-  align-items: center;
-}
 .logo{
   transition: 0.4s;
-  position: relative;
   transform: scale(3);
   transform-origin: top;
   z-index: 99;
 }
 .logo-true{
   transition: 0.4s;
-  position: relative;
-  transform: scale(1.5);
-  top: 2px;
+  transform: scale(1);
   z-index: 99;
 }
 .navbar{
-  flex: 1.5 0 0;
-  display: flex;
-  justify-content: center;
   position: relative;
-  list-style: none;
+  display: flex;
+  width: 100%;
+}
+.navbar .branding{
+  margin-right: auto;
 }
 .nav-link{
   flex: none;
@@ -157,23 +151,50 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .active{
   border-bottom: 4px solid var(--light-green);
 }
+#toggler{
+  display: none;
+  font-size: 3em;
+  border: none;
+  background: none;
+}
+#toggler i{
+  color: var(--light-green);
+}
 /*
   Media Queries
 */
 @media only screen and (max-width: 1200px) {
-  .navbar{
-    margin-right: 20px;
+  .logo{
+    transform: scale(2);
   }
 }
-@media only screen and (max-width: 860px) {
-  #header{
+@media only screen and (max-width: 1024px) {
+  .header-mobile{
+    transition: height .5s;
+    -webkit-transition: height .5s; /* Safari */
+    height: 13%;
+    overflow: hidden;
+    transition-timing-function: ease-in-out;
+  }
+  .header-mobile-drop{
+    transition: height 1s;
+    -webkit-transition: height 1s; /* Safari */
+    height: 73%;
+    overflow: hidden;
+    transition-timing-function: ease-in-out;
   }
   .navbar{
     flex-direction: column;
+    align-items: flex-end;
   }
-  .toggler{
-    display: flex;
-
+  .logo{
+    transform: scale(1.1);
+  }
+  #toggler{
+    display: block;
+    position: absolute;
+    top: 2px;
+    right: 20px;
   }
 }
 
