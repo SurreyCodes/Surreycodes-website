@@ -116,13 +116,13 @@ Use it to make something cool, have fun, and share what you've learned with othe
   z-index: 999;
 }
 .logo{
-  transition: 2s;
+  transition: 0.4s;
   transform: scale(3);
   transform-origin: top;
   z-index: 99;
 }
 .logo-true{
-  transition: 2s;
+  transition: 0.4s;
   transform: scale(1);
   z-index: 99;
 }
@@ -260,7 +260,7 @@ Meetup Component
 */
 #meetup{
   position: relative;
-  padding: 10px 0;
+  padding: 4em 0;
 }
 #meetup button{
   background: var(--blue);

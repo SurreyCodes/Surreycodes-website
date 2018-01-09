@@ -8,7 +8,7 @@
     "react-router-dom": "4.2.2",
     "react-scripts": "1.0.17",
     "react-scrollchor": "^4.1.0",
-    "react-waypoint": "^7.3.4"
+    "react-waypoint": "7.3.4"
   },
   "scripts": {
     "start": "react-scripts start",
