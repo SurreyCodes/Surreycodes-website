@@ -172,14 +172,14 @@ Use it to make something cool, have fun, and share what you've learned with othe
   .header-mobile{
     transition: height .5s;
     -webkit-transition: height .5s; /* Safari */
-    height: 13%;
+    height: 60px;
     overflow: hidden;
     transition-timing-function: ease-in-out;
   }
   .header-mobile-drop{
     transition: height 1s;
     -webkit-transition: height 1s; /* Safari */
-    height: 73%;
+    height: 350px;
     overflow: hidden;
     transition-timing-function: ease-in-out;
   }
