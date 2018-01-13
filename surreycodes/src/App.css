@@ -340,13 +340,14 @@ Community Component
 .flex-card-container{
   margin-top: 40px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   height: 200px;
   font-family: 'Orbitron', sans-serif;
 }
 .flex-card{
   width: 12em;
-  height: 12em;
+  height: 15em;
   position: relative;
   background: #FFFFFF;
   border-radius: 8px;
