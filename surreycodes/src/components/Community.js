@@ -13,10 +13,10 @@ class Community extends Component {
       <div id="community">
         <div className="container">
           <div className="flex-card-container">
-            <Card id="fulltime-card-image" image={Fulltime} text="Our Full Time Program" alternate="Full Time Program"/>
-            <Card image={Slack} text="Our Slack Channel" alternate="Slack" />
-            <Card image={Job} text="Jobs &nbsp;Available" alternate="Jobs" />
-            <Card image={Hack4Good} text="#Hack 4 Good" alternate="Hack 4 Good" />
+            <Card identity="fulltime" button="Enroll Now" id="fulltime-card-image" image={Fulltime} text="Our Full Time Program" alternate="Full Time Program"/>
+            <Card identity="slack" button="Join Here" image={Slack} text="Our Slack Channel" alternate="Slack" />
+            <Card identity="job" button="Search" image={Job} text="Jobs &nbsp;Available" alternate="Jobs" />
+            <Card identity="hack" button="Hackathon" image={Hack4Good} text="#Hack 4 Good" alternate="Hack 4 Good" />
           </div>
           <div className="member-flex-container">
             <h1>Meet Our Members</h1>
