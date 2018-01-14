@@ -19,6 +19,10 @@ class FulltimeProgram extends Component {
               <button>Submit One</button>
             </div>
           </section>
+          <section>
+            <h1>Learn To Code for free</h1>
+            <p>Learn to code with others in a great space, while you help non profits with their technological approach.</p>
+          </section>
             </div>
         </div>
       </div>
@@ -26,4 +30,4 @@ class FulltimeProgram extends Component {
   }
 }
 
-export default Footer;
+export default FulltimeProgram;
