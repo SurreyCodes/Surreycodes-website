@@ -376,7 +376,7 @@ Community Component
   margin-bottom: 10px;
   font-size: 20px;
 }
-.flex-card button{
+.flex-card a{
   display: none;
   position: absolute;
   bottom: 0;
@@ -391,6 +391,11 @@ Community Component
   z-index: 98;
   background: #62AADD;
   color: #ffffff;
+  overflow: hidden;
+  text-decoration: none;
+}
+.flex-card a:hover{
+  box-shadow: 0 1px 1px 1px #000000;
 }
 .flex-card #fulltime-card-image{
   margin-top: 40px;
