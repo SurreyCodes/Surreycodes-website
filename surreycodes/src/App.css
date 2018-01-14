@@ -356,8 +356,9 @@ Community Component
   align-items: center;
   overflow: none;
   text-align: center;
+  z-index: 98;
 }
-.flex-card div{
+.flex-card p{
   position: absolute;
   bottom: 0;
   margin-bottom: 10px;
@@ -368,6 +369,28 @@ Community Component
   width: 6em;
   position: relative;
   top: 0;
+}
+.flex-card p{
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.flex-card button{
+  display: none;
+  position: absolute;
+  bottom: 0;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 20px;
+  font-size: 20px;
+  transform: scaleX(1);
+  transition: 1s;
+  width: 150px;
+  z-index: 98;
+  background: #62AADD;
+  color: #ffffff;
 }
 .flex-card #fulltime-card-image{
   margin-top: 40px;
