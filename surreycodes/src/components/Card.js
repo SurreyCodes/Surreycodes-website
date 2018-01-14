@@ -42,7 +42,7 @@ class Card extends Component {
     var buttonColor = this.state.buttonColor;
     var flexButton = {
       display: 'block',
-      background: `${buttonColor}`
+      background: `${buttonColor}`// used for the job button mainly.
     }
     var flexPara = {
       top: '0',
