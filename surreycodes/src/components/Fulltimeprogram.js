@@ -6,6 +6,7 @@ class FulltimeProgram extends Component {
   render(){
     return(
       <div>
+      <Header />
         <div id="FulltimeProgram">
           <div className="container">
           <section className="landingSection">
@@ -25,6 +26,7 @@ class FulltimeProgram extends Component {
           </section>
             </div>
         </div>
+      <Footer />
       </div>
     );
   }
