@@ -6,7 +6,7 @@ class Footer extends Component {
       <div>
         <footer id="footer">
           <div className="container">
-            <ul>
+            <ul className="footer-list">
               <li>Our Code of Conduct</li>
               <li>Terms of use for members</li>
               <li>Sponsor Us</li>
