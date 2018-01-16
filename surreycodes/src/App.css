@@ -195,6 +195,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
     position: absolute;
     top: 2px;
     right: 20px;
+    cursor: pointer;
   }
 }
 
@@ -314,6 +315,10 @@ About Component
   position: relative;
   padding: 10px 0;
 }
+#about h1 {
+  padding-bottom: 1.1em;
+  font-size: 3em;
+}
 #about a{
   color: #4B4A4C;
   text-decoration: underline;
@@ -346,7 +351,7 @@ SECTION THREE -- COMMUNITY & SUBSCRIBE & FRIENDS COMPONENTS
 .green-section{
   position: absolute;
   top: 225px;
-  height: 400px;
+  height: 450px;
   width: 120%;
   background: var(--light-green);
   z-index: 1;
@@ -502,7 +507,24 @@ Sponsor Component
 */
 
 #footer{
-  position: relative;
-  top:200px;
+  height: 80px;
   width: 100%;
+  background: var(--gray);
+}
+#footer .container{
+  width: 90%;
+}
+.footer-list{
+  display: flex;
+  list-style: none;
+  color: var(--white);
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+.footer-list li{
+  padding-left: 20px;
+}
+.App{
+  display: flex;
+  flex-flow: column;
 }
