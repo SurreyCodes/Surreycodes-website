@@ -169,6 +169,18 @@ Use it to make something cool, have fun, and share what you've learned with othe
   }
 }
 @media only screen and (max-width: 1024px) {
+  #header .container{
+    width: 90%;
+  }
+  .logo{
+    transform: scale(1.1);
+  }
+  .nav-link{
+    padding: 12px 14px;
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: 720px) {
   .header-mobile{
     transition: height .5s;
     -webkit-transition: height .5s; /* Safari */
@@ -186,6 +198,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
   .navbar{
     flex-direction: column;
     align-items: flex-end;
+  }
+  .nav-link{
+    padding: 14px 16px;
+    font-size: 1.2em;
   }
   .logo{
     transform: scale(1.1);
