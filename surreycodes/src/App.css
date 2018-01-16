@@ -69,6 +69,8 @@ h1{
   margin: 0 auto;
 }
 article{
+  display: flex;
+  flex-flow: column;
   width: 100%;
   float: left;
 }
@@ -329,7 +331,7 @@ About Component
 
 #about{
   position: relative;
-  padding: 10px 0;
+  padding: 4em 0;
 }
 #about h1 {
   padding-bottom: 1.1em;
@@ -360,14 +362,16 @@ SECTION THREE -- COMMUNITY & SUBSCRIBE & FRIENDS COMPONENTS
 ////////////////////////////////////////////////////////////
 */
 #section-three{
+  display: flex;
+  flex-flow: column;
   position: relative;
   background: #c4c4c4; /* TEMPORARY */
   padding: 10px 0;
 }
 .green-section{
   position: absolute;
-  top: 225px;
-  height: 450px;
+  top: 250px;
+  height: 490px;
   width: 120%;
   background: var(--light-green);
   z-index: 1;
@@ -377,15 +381,10 @@ SECTION THREE -- COMMUNITY & SUBSCRIBE & FRIENDS COMPONENTS
 /*
 Community Component
 */
-#community{
-  position: relative;
-  z-index: 99;
-}
 .flex-card-container{
   margin-top: 40px;
   display: flex;
   justify-content: center;
-  height: 200px;
   font-family: 'Orbitron', sans-serif;
   position: relative;
 }
@@ -448,14 +447,23 @@ Community Component
   position: relative;
   top: 0;
 }
-.member-flex-container{
-  margin-top: 80px;
+
+/*
+Members Component
+*/
+#member{
+  padding: 4em 0;
   display: flex;
   flex-flow: column;
   justify-content: space-between;
+  position: relative;
+  z-index: 99;
+}
+#member h1{
+  padding-bottom: .8em;
+  font-size: 3em;
 }
 .member-statements{
-  margin: 40px 0;
   flex: 1;
   background: #FFFFFF;
   padding: 10px;
@@ -476,40 +484,76 @@ Community Component
 }
 /* TEMPORARY END*/
 
-#subscribe-surreycodes{
-  position: relative;
-  z-index: 99;
-  padding: 50px 0;
+
+/*
+Subscribe Component
+*/
+
+#subscribe{
+  font-size: 1.5em;
+}
+#subscribe h1{
+  padding: 1.1em 0;
 }
 #subscribe-surreycodes form{
   display: flex;
   flex-flow: row wrap;
 }
 #subscribe-surreycodes input{
-  flex: 3;
+  flex: 2.5;
   font-size: 20px;
   padding: 6px;
+  border-radius: 8px 0 0 8px;
+  margin-right: -5px;
+}
+#subscribe-surreycodes input:focus{
+  outline: 0;
 }
 #subscribe-surreycodes button{
   flex: 1;
   background: var(--blue);
   border: none;
+  font-size: 20px;
+  font-weight: bold;
   margin: 1px 5px;
   display: block;
-  border-radius: 5px;
+  border-radius: 0 8px 8px 0;
   box-shadow: 0 1px 1px 1px var(--black);
   overflow: hidden;
 }
 
 
 /*
-Subscribe Component
-*/
-
-/*
 Friends Component
 */
-
+#friends-surreycodes{
+  font-size: 1.5em;
+}
+#friends-surreycodes h1{
+  padding: 1.1em 0;
+  font-size: 1.5em;
+}
+.friend-list{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.friend-list .circles{
+  margin: 0 20px;
+}
+#left-arrow{
+  position: absolute;
+  left: -27px;
+  transform: scale(5);
+  color: var(--gray);
+}
+#right-arrow{
+  position: absolute;
+  right: -27px;
+  transform: scale(5);
+  color: var(--gray);
+}
 /*
 Sponsor Component
 */

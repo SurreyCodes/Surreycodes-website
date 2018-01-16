@@ -8,9 +8,7 @@ No Pre-requisite or special configuration is needed
 
 ## Built With
 
-Raw HTML, CSS, Javascript so far.
-
-Bootstrap and G-sap later
+ReactJS
 
 ## surreycodes file for React App -- Dependancies
 
