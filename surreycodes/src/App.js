@@ -7,6 +7,7 @@ import About from './components/About';
 import Community from './components/Community';
 import Subscribe from './components/Subscribe';
 import Friends from './components/Friends';
+import Members from './components/Members';
 import Footer from './components/Footer';
 import WhenLeavingView from './components/WhenLeavingView';
 
@@ -44,9 +45,8 @@ class App extends Component {
           <article id="section-three">
             <div className="green-section"></div>
             <Community />
+            <Members />
             <Subscribe />
-          </article>
-          <article id="section-four">
             <Friends />
           </article>
         <Footer />

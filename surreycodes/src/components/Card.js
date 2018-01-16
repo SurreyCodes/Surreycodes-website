@@ -59,7 +59,7 @@ class Card extends Component {
       <div style={this.state.isHovered ? cardBackground : null} className="flex-card" onMouseEnter={(e) => this.hovered(this.props.identity)} onMouseLeave={(e) => this.hovered(this.props.identity)}>
         <img style={this.state.isHovered ? flexImage : null} id={this.props.id} src={this.props.image} alt={this.props.alternate}></img>
           <p style={this.state.isHovered ? flexPara : null}>{this.props.text}</p>
-          <a href="https://surreycodes.slack.com/" className="cr-scan-ct" style={this.state.isHovered ? flexButton : null}>{this.props.button}</a>
+          <a href={this.props.location} className="cr-scan-ct" style={this.state.isHovered ? flexButton : null}>{this.props.button}</a>
       </div>
     );
   }
