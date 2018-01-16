@@ -1,19 +1,26 @@
 import React, { Component } from 'react';
 
 class Footer extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+
+    };
+  }
   render(){
     return(
-      <div>
         <footer id="footer">
           <div className="container">
-            <ul>
+            <ul className="footer-list">
               <li>Our Code of Conduct</li>
+              <li>{'• '}</li>
               <li>Terms of use for members</li>
+              <li>{'• '}</li>
               <li>Sponsor Us</li>
             </ul>
           </div>
         </footer>
-      </div>
     );
   }
 }

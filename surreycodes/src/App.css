@@ -195,6 +195,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
     position: absolute;
     top: 2px;
     right: 20px;
+    cursor: pointer;
   }
 }
 
@@ -262,14 +263,37 @@ Meetup Component
   position: relative;
   padding: 4em 0;
 }
+#meetup h1 {
+  padding-bottom: 1.1em;
+  font-size: 3em;
+}
+
+.meetupIntegration {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  padding-bottom: 1em;
+  justify-content: space-around;
+  align-items: center;
+}
+#meetup h2 {
+  padding-bottom: 0.6em;
+  font-size: 1.5em;
+}
+
+#meetup p {
+  font-size: 1.3em;
+}
+
 #meetup button{
+  font-size: 1.2em;
   background: var(--blue);
   border: none;
-  margin: 1px 5px;
+  margin: 1px 2px;
   display: block;
-  padding: 12px 14px; /* temporary to test cranimation feel free to modify */
-  border-radius: 5px;
-  box-shadow: 0 1px 1px 1px var(--black);
+  padding: 20px 100px; /* temporary to test cranimation feel free to modify */
+  border-radius: 8px;
+  box-shadow: 0 1px 1px 1px var(--gray);
   overflow: hidden;
 }
 
@@ -290,6 +314,10 @@ About Component
 #about{
   position: relative;
   padding: 10px 0;
+}
+#about h1 {
+  padding-bottom: 1.1em;
+  font-size: 3em;
 }
 #about a{
   color: #4B4A4C;
@@ -323,7 +351,7 @@ SECTION THREE -- COMMUNITY & SUBSCRIBE & FRIENDS COMPONENTS
 .green-section{
   position: absolute;
   top: 225px;
-  height: 400px;
+  height: 450px;
   width: 120%;
   background: var(--light-green);
   z-index: 1;
@@ -343,10 +371,11 @@ Community Component
   justify-content: center;
   height: 200px;
   font-family: 'Orbitron', sans-serif;
+  position: relative;
 }
 .flex-card{
   width: 12em;
-  height: 12em;
+  height: 17em;
   position: relative;
   background: #FFFFFF;
   border-radius: 8px;
@@ -359,7 +388,7 @@ Community Component
   z-index: 99;
 }
 .flex-card p{
-  position: absolute;
+  position: relative;
   bottom: 0;
   margin-bottom: 10px;
   font-size: 20px;
@@ -404,7 +433,7 @@ Community Component
   top: 0;
 }
 .member-flex-container{
-  margin-top: 40px;
+  margin-top: 80px;
   display: flex;
   flex-flow: column;
   justify-content: space-between;
@@ -478,7 +507,24 @@ Sponsor Component
 */
 
 #footer{
-  position: relative;
-  top:200px;
+  height: 80px;
   width: 100%;
+  background: var(--gray);
+}
+#footer .container{
+  width: 90%;
+}
+.footer-list{
+  display: flex;
+  list-style: none;
+  color: var(--white);
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+.footer-list li{
+  padding-left: 20px;
+}
+.App{
+  display: flex;
+  flex-flow: column;
 }
