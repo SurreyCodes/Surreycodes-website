@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './Header';
 import Footer from './Footer';
+import Fulltime from '../assets/SurreyCodesFullTimeProgram.svg';
 
 class FulltimeProgram extends Component {
   render(){
@@ -10,6 +11,7 @@ class FulltimeProgram extends Component {
         <div id="FulltimeProgram">
           <div className="container">
           <section className="landingSection">
+              <img src={Fulltime} alt="Our Campers Studying and Nonprofit can submit their projects" className="fulltime-program-hero"/>
             <div>
               <h1>Study with Us</h1>
               <button>Enroll Today</button>
