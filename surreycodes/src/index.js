@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Sponsor from './components/Sponsor';
-import FulltimeProgram from './components/Fulltimeprogram';
+import FulltimeProgram from './components/Fulltimeprogram-Landing';
 
 import registerServiceWorker from './registerServiceWorker';
 
