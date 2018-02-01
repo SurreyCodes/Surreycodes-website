@@ -76,5 +76,8 @@ typings/
 # dotenv environment variables file
 .env
 
+# IDEA
+
+.idea
 
 # End of https://www.gitignore.io/api/node,linux
