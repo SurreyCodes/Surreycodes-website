@@ -563,11 +563,8 @@ Sponsor Component
 Full Time Landing Page
 /////////////////////////
 */
-#FulltimeProgram {
-    position: static;
-}
 
-#FulltimeProgram .landingSection {
+.landingSection {
     width: 100%;
     max-width: 2800px;
     height: 25%;
@@ -576,7 +573,7 @@ Full Time Landing Page
     position: relative;
 }
 
-#FulltimeProgram .landingSection img{
+.landingSection img{
     width: 100%;
     max-width: 100%;
     position: relative;
@@ -584,7 +581,7 @@ Full Time Landing Page
     filter: alpha(opacity=70); /* For IE8 and earlier */
 }
 
-#FulltimeProgram .landingSection .title-landingSection{
+.landingSection .title-landingSection{
     font-size: 3em;
     font-family: 'Roboto Mono', monospace;
     margin: auto;
@@ -596,10 +593,15 @@ Full Time Landing Page
     z-index: 1;
     color: #fff;
 }
-#FulltimeProgram .landingSection .title-landingSection button{
+#FulltimeProgram .landingSection .title-landingSection .button-container{
+    margin-top: 25px;
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 
 }
+
+
 
 /*
 ////////////////////////////

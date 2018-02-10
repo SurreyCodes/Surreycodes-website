@@ -7,20 +7,22 @@ import IconHeart from '../assets/Icon - Green Heart.svg';
 import IconPartners from '../assets/Icon - Green partner.svg';
 import IconSpeaker from '../assets/Icon Speaker.svg';
 
-class FulltimeProgram extends Component {
+class fulltimeProgramLanding extends Component {
   render(){
       return <div>
           <Header/>
-          <div id="FulltimeProgram">
-              <section className="landingSection">
+          <section id="FulltimeProgram">
+              <div className="landingSection">
                   <img src={SurreyCodesMembers} alt="Our Campers Studying and Nonprofit can submit their projects" />
                   <div className="title-landingSection">
                       <h1>LEARN TO CODE FOR FREE</h1>
                       <h3>By Supporting Non-Profit Projects</h3>
-                      <button>KickStart Campaign</button>
+                      <div className="button-container">
+                          <button>KickStart Campaign</button>
                       <button>See Available Projects</button>
                   </div>
-              </section>
+                      </div>
+              </div>
               <div className="container">
                   <section className="feature">
                       <h1>Community Benefits</h1>
@@ -55,10 +57,10 @@ class FulltimeProgram extends Component {
                       <a href="#"><img src="#" alt=""/></a>
                   </section>
               </div>
-          </div>
+          </section>
           <Footer/>
       </div>;
   }
 }
 
-export default FulltimeProgram;
+export default fulltimeProgramLanding;
