@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Sponsor from './components/Sponsor';
-import FulltimeProgram from './components/Fulltimeprogram-Landing';
+import fulltimeProgramLanding from './components/Fulltimeprogram-Landing';
 
 import registerServiceWorker from './registerServiceWorker';
 
@@ -17,7 +17,7 @@ ReactDOM.render(
     <div>
       <Route exact path="/" component={App}/>
       <Route path="/sponsors" component={Sponsor}/>
-      <Route path="/fulltime" component={FulltimeProgram}/>
+      <Route path="/fulltime" component={fulltimeProgramLanding}/>
     </div>
   </Router>
 , document.getElementById('root'));
