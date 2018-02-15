@@ -1,18 +1,22 @@
 import React, { Component } from 'react';
-import Header from './Header';
-import Footer from './Footer';
-import SurreyCodesMembers from '../assets/SurreycodesMembers.svg';
 import IconCup from '../assets/Icon - Blue Cup.svg';
 import IconHeart from '../assets/Icon - Green Heart.svg';
 import IconPartners from '../assets/Icon - Green partner.svg';
 import IconSpeaker from '../assets/Icon Speaker.svg';
 
-class fulltimeProgramLanding extends Component {
+// import SurreyCodesMembers from '../assets/SurreycodesMembers.svg';
+//
+// This Image is Corrupt ^^^^^^^
+
+
+
+
+class FulltimeProgramLanding extends Component {
   render(){
-      return <div>
-          <Header/>
+      return (
+      <div>
           <section className="fulltime-landingSection">
-              <img src={SurreyCodesMembers} alt="Our Campers Studying and Nonprofit can submit their projects" />
+              <img src="" alt="Our Campers Studying and Nonprofit can submit their projects" />
               <div className="title-landingSection">
                   <h1>LEARN TO CODE FOR FREE</h1>
                   <h3>By Supporting Non-Profit Projects</h3>
@@ -52,16 +56,15 @@ class fulltimeProgramLanding extends Component {
           </section>
           <section className="backers">
               <h1>These companies are already involved:</h1>
-              <a href="#"><img src="#" alt="Beta Collective"/></a>
-              <a href="#"><img src="#" alt="Microsoft Corporation"/></a>
-              <a href="#"><img src="#" alt=""/></a>
-              <a href="#"><img src="#" alt=""/></a>
-              <a href="#"><img src="#" alt=""/></a>
+              <a href=""><img src="" alt="Beta Collective"/></a>
+              <a href=""><img src="" alt="Microsoft Corporation"/></a>
+              <a href=""><img src="" alt=""/></a>
+              <a href=""><img src="" alt=""/></a>
+              <a href=""><img src="" alt=""/></a>
           </section>
-
-          <Footer/>
-      </div>;
+      </div>
+    );
   }
 }
 
-export default fulltimeProgramLanding;
+export default FulltimeProgramLanding;
