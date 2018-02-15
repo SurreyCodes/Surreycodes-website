@@ -57,7 +57,6 @@ body{
   position: relative;
   overflow-y: scroll;
   background-color: #F4F4F4;
-  overflow-y: scroll;
   overflow-x: hidden;
   font-family: 'Roboto Mono', monospace;
 }
@@ -398,7 +397,7 @@ Community Component
   display: flex;
   flex-flow: column;
   align-items: center;
-  overflow: none;
+  overflow: unset;
   text-align: center;
   z-index: 99;
 }
@@ -558,8 +557,104 @@ Friends Component
 Sponsor Component
 */
 
+/*
+/////////////////////////
+Full Time Landing Page
+/////////////////////////
+*/
 
+.fulltime-landingSection {
+    width: 100%;
+    max-width: 2800px;
+    height: 25%;
+    text-align: center;
+    margin: 0;
+    position: relative;
+}
 
+.fulltime-landingSection img{
+    width: 100%;
+    max-width: 100%;
+    margin-top: 18px;
+    position: relative;
+    opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+
+.title-landingSection{
+    font-size: 2.8vw;
+    font-family: 'Roboto Mono', monospace;
+    margin: auto;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    color: #fff;
+}
+.button-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: 2em;
+  align-content: center;
+}
+
+.button-container button {
+  border: none;
+  color: Green;
+  padding: 15px 10px;
+  width: 29%;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 12px;
+  display: inline-block;
+  font-size: .8em;
+  -webkit-transition-duration: 0.2s; /* Safari */
+  transition-duration: 0.2s;
+}
+
+.button-container button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.button-container button:active {
+  background-color: #4CAF50;
+  box-shadow: 0 3px #006800;
+  transform: translateY(2px);
+}
+
+.fulltime-features {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: large;
+    justify-content: space-evenly;
+
+}
+
+.feature img{
+    width: 15vw;
+    height: 100%;
+}
+
+.calltoaction {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.calltoaction img {
+    width: 20vw;
+    height: 100%;
+}
 /*
 ////////////////////////////
   Footer Component
