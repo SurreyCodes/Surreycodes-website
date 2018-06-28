@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Meetup.css';
 
 class Meetup extends Component {
   render(){
