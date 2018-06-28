@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from './components/Header';
-import Meetup from './components/Meetup';
-import Hook from './components/Hook';
-import About from './components/About';
+import Meetup from './components/Meetup/Meetup';
+import Hook from './components/Hook/Hook';
+import About from './components/About/About';
 import Community from './components/Community';
 import Subscribe from './components/Subscribe';
 import Friends from './components/Friends';
