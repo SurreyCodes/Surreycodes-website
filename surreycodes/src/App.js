@@ -5,9 +5,9 @@ import Meetup from './components/Meetup/Meetup';
 import Hook from './components/Hook/Hook';
 import About from './components/About/About';
 import Community from './components/Community';
-import Subscribe from './components/Subscribe';
-import Friends from './components/Friends';
-import Members from './components/Members';
+import Subscribe from './components/Subscribe/Subscribe';
+import Friends from './components/Friends/Friends';
+import Members from './components/Members/Members';
 import Footer from './components/Footer/Footer';
 import WhenLeavingView from './components/WhenLeavingView';
 

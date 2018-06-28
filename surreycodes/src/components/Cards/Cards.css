@@ -1,0 +1,66 @@
+.flex-card-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Orbitron', sans-serif;
+    position: relative;
+}
+.flex-card{
+    width: 12em;
+    height: 17em;
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin: 6px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    overflow: unset;
+    text-align: center;
+    z-index: 99;
+}
+.flex-card p{
+    position: relative;
+    bottom: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.flex-card img{
+    margin-top: 20px;
+    width: 6em;
+    position: relative;
+    top: 0;
+}
+.flex-card p{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.flex-card a{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 20px;
+    transform: scaleX(1);
+    transition: 1s;
+    width: 150px;
+    z-index: 98;
+    background: #62AADD;
+    color: #ffffff;
+    overflow: hidden;
+    text-decoration: none;
+}
+.flex-card a:hover{
+    box-shadow: 0 1px 1px 1px #000000;
+}
+.flex-card #fulltime-card-image{
+    margin-top: 40px;
+    width: 10em;
+    position: relative;
+    top: 0;
+}

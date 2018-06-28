@@ -3,7 +3,7 @@ import Slack from '../assets/slack-logo.svg';
 import Fulltime from '../assets/SurreyCodesFullTimeProgram.svg';
 import Hack4Good from '../assets/SurreyCodeCampLogoNew.svg';
 import Job from '../assets/briefcase-lightblue.svg';
-import Card from '../components/Card';
+import Card from './Cards/Card';
 
 
 class Community extends Component {

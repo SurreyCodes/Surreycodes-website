@@ -1,0 +1,26 @@
+#about{
+    position: relative;
+    padding: 4em 0;
+}
+#about h1 {
+    padding-bottom: 1.1em;
+    font-size: 3em;
+}
+#about a{
+    color: #4B4A4C;
+    text-decoration: underline;
+}
+#about a:hover{
+    color: #006300;
+    text-decoration: underline;
+}
+.about-flex-container{
+    display: flex;
+    flex-flow: column;
+}
+.about-flex-container h1{
+    flex: 1 1 0;
+}
+.about-flex-container p{
+    flex: 1 1 0;
+}

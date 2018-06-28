@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import Codepen from '../assets/codepen-logo.svg';
-import MediaTemple from '../assets/mediatemple-logo.svg';
-import GitHub from '../assets/github-logo.svg';
+import Codepen from '../../assets/codepen-logo.svg';
+import MediaTemple from '../../assets/mediatemple-logo.svg';
+import GitHub from '../../assets/github-logo.svg';
+import './Friends.css';
 
 class Friends extends Component {
   render(){

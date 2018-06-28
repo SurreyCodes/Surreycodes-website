@@ -1,0 +1,33 @@
+
+#subscribe{
+    font-size: 1.5em;
+}
+#subscribe h1{
+    padding: 1.1em 0;
+}
+#subscribe-surreycodes form{
+    display: flex;
+    flex-flow: row wrap;
+}
+#subscribe-surreycodes input{
+    flex: 2.5;
+    font-size: 20px;
+    padding: 6px;
+    border-radius: 8px 0 0 8px;
+    margin-right: -5px;
+}
+#subscribe-surreycodes input:focus{
+    outline: 0;
+}
+#subscribe-surreycodes button{
+    flex: 1;
+    background: var(--blue);
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 1px 5px;
+    display: block;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 0 1px 1px 1px var(--black);
+    overflow: hidden;
+}
