@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import Logo from '../assets/SurreyCodeCampLogoNew.svg';
+import Logo from '../../assets/SurreyCodeCampLogoNew.svg';
 import { Link } from 'react-router-dom';
+import './Header.css';
 
 class Header extends Component {
   constructor(props) {

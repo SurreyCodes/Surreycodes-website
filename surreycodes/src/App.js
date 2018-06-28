@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from './components/Header';
+import Header from './components/Header/Header';
 import Meetup from './components/Meetup/Meetup';
 import Hook from './components/Hook/Hook';
 import About from './components/About/About';
@@ -8,7 +8,7 @@ import Community from './components/Community';
 import Subscribe from './components/Subscribe';
 import Friends from './components/Friends';
 import Members from './components/Members';
-import Footer from './components/Footer';
+import Footer from './components/Footer/Footer';
 import WhenLeavingView from './components/WhenLeavingView';
 
 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Header from './Header';
-import Footer from './Footer';
+import Header from './Header/Header';
+import Footer from './Footer/Footer';
 import FulltimeProgramLanding from './FulltimeProgramLanding';
 import Fulltime from '../assets/SurreyCodesFullTimeProgram.svg';
 

@@ -1,0 +1,18 @@
+#footer{
+    height: 80px;
+    width: 100%;
+    background: var(--gray);
+}
+#footer .container{
+    width: 90%;
+}
+.footer-list{
+    display: flex;
+    list-style: none;
+    color: var(--white);
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+.footer-list li{
+    padding-left: 20px;
+}

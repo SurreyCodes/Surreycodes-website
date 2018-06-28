@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Audience from '../../assets/Audience-raising-their-hands.png';
+import './Hook.css';
 
 class Hook extends Component {
   render(){
