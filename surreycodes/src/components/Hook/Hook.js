@@ -8,7 +8,7 @@ class Hook extends Component {
       <div id="hook">
         <div className="hero">
          <img src={Audience} alt="Audience Raising their hands" className="img-hero"/>
-            <h1>PEER TO PEER MENTORING<br />TECH COMMUNITY</h1>
+            <h1>PEER TO PEER MENTORING<br />TECH FOUNDATION</h1>
         </div>
       </div>
     );

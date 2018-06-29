@@ -3,11 +3,7 @@ import IconCup from '../assets/Icon - Blue Cup.svg';
 import IconHeart from '../assets/Icon - Green Heart.svg';
 import IconPartners from '../assets/Icon - Green partner.svg';
 import IconSpeaker from '../assets/Icon Speaker.svg';
-
-// import SurreyCodesMembers from '../assets/SurreycodesMembers.svg';
-//
-// This Image is Corrupt ^^^^^^^
-
+import SurreyCodesMembers from '../assets/SurreyCodesMembers.jpg';
 
 
 
@@ -16,9 +12,9 @@ class FulltimeProgramLanding extends Component {
       return (
       <div>
           <section className="fulltime-landingSection">
-              <img src="" alt="Our Campers Studying and Nonprofit can submit their projects" />
+              <img src={SurreyCodesMembers} alt="Our Campers Studying and Nonprofit can submit their projects" />
               <div className="title-landingSection">
-                  <h1>LEARN TO CODE FOR FREE</h1>
+                  <h1>LEARN TO CODE</h1>
                   <h3>By Supporting Non-Profit Projects</h3>
                   <div className="button-container">
                       <button>KickStart Campaign</button>

@@ -33,7 +33,7 @@ class FulltimeProgram extends Component {
           </div>
         </section>
         <section>
-          <h1>Learn To Code for free</h1>
+          <h1>Learn To Code</h1>
           <p>Learn to code with others in a great space, while you help non profits with their technological approach.</p>
         </section>
           </div>
