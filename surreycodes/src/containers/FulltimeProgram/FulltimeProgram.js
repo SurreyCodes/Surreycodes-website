@@ -1,16 +1,19 @@
 import React, { Component } from 'react';
-import IconCup from '../assets/Icon - Blue Cup.svg';
-import IconHeart from '../assets/Icon - Green Heart.svg';
-import IconPartners from '../assets/Icon - Green partner.svg';
-import IconSpeaker from '../assets/Icon Speaker.svg';
-import SurreyCodesMembers from '../assets/SurreyCodesMembers.jpg';
+import IconCup from '../../assets/Icon - Blue Cup.svg';
+import IconHeart from '../../assets/Icon - Green Heart.svg';
+import IconPartners from '../../assets/Icon - Green partner.svg';
+import IconSpeaker from '../../assets/Icon Speaker.svg';
+import SurreyCodesMembers from '../../assets/SurreyCodesMembers.jpg';
+import Header from '../../components/Header/Header';
+import Footer from '../../components/Footer/Footer';
 
 
 
-class FulltimeProgramLanding extends Component {
+class FulltimeProgram extends Component {
   render(){
       return (
       <div>
+          <Header/>
           <section className="fulltime-landingSection">
               <img src={SurreyCodesMembers} alt="Our Campers Studying and Nonprofit can submit their projects" />
               <div className="title-landingSection">
@@ -58,9 +61,10 @@ class FulltimeProgramLanding extends Component {
               <a href=""><img src="" alt=""/></a>
               <a href=""><img src="" alt=""/></a>
           </section>
+          <Footer/>
       </div>
     );
   }
 }
 
-export default FulltimeProgramLanding;
+export default FulltimeProgram;
