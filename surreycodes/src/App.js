@@ -37,10 +37,10 @@ class App extends Component {
         </WhenLeavingView>
           <article id="section-one">
             <Hook />
-            <Meetup />
+            <About />
           </article>
           <article id="section-two">
-            <About />
+            <Meetup />
           </article>
           <article id="section-three">
             <div className="green-section"></div>
