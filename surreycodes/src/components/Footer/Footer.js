@@ -13,15 +13,11 @@ class Footer extends Component {
   render(){
     return(
       <footer id="footer">
-        <div className="container">
-          <ul className="footer-list">
             <Link to="/codeofconduct">Our Code of Conduct</Link>
-            <li>{' • '}</li>
+            <span>{'•'}</span>
             <Link to="/volunteer">Volunteer with Us</Link>
-            <li>{' • '}</li>
+            <span>{'•'}</span>
             <Link to="/sponsors">Sponsor Us</Link>
-          </ul>
-        </div>
       </footer>
     );
   }

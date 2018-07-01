@@ -35,7 +35,7 @@
     margin: 10px 0;
 }
 
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 740px) {
     #CodeofConduct>div{
         margin: 0 16%;
     }
