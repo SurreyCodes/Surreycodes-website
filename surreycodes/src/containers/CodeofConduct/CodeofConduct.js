@@ -9,25 +9,21 @@ class CodeofConduct extends Component {
         return <div id="CodeofConduct">
             <Header/>
             <section>
-                <h1>OUR CODE OF CONDUCT</h1>
-                <p>Welcome to SurreyCodes!, An always growing community of Tech in Surrey,BC.</p>
-                <p>All members, speakers, sponsors and volunteers at our events and chats are required to agree with the
-                    following code of conduct. Organizers will enforce this code throughout the events and communication
-                    channels such as Slack, twitter among others. We are expecting cooperation from all participants to
-                    help
-                    ensure a safe environment for everybody.</p>
-            </section>
+                <h1><strong>OUR CODE OF CONDUCT</strong></h1>
+                </section>
             <div>
                 <h1>The Short Version</h1>
                 <p>We all shall provide a harassment-free experience for everyone, regardless of gender, age, sexual
-                    orientation, disability, physical appearance, body size, race, or religion (or lack thereof). Sexual
-                    language and imagery is not appropriate for any event venue, including talks, workshops, parties,
-                    Twitter
-                    and other online media. Event participants violating these rules may be sanctioned or expelled from
-                    the
-                    event without a refund (if applicable) at the discretion of the SurreyCodes organizers.</p>
-            </div>
-            <div className="long-version">
+                    orientation, disability, physical appearance, body size, race, or religion (or lack thereof).</p>
+                <h1>The Full Version</h1>
+                <p>All members, speakers, sponsors, employees and volunteers at our events and chats are required to agree with the
+                    following code of conduct. Organizers will enforce this code throughout the events and communication
+                    channels such as slack, twitter among others. We are expecting cooperation from all participants to
+                    help ensure a safe environment for everyone in every interaction.</p>
+                <p>Sexual language and imagery is not appropriate for any event venue, including talks, workshops, parties,
+                    Twitter and other online media.</p>
+                <p>Event participants violating these rules may be sanctioned or expelled from
+                    the event without a refund (if applicable) at the discretion of the SurreyCodes Foundation organizers.</p>
                 <h1>What not to do..</h1>
                 <p>These are the rules/the things this space is not for. Breaking any of these will result in your
                     prompt
@@ -46,6 +42,7 @@ class CodeofConduct extends Component {
                     </li>
                 </ul>
                 <h1>What to do in case of..</h1>
+                <p>Our organizers rely in all of us to keep watch.</p>
                 <p>If you think some of these rules are being broken by a particular member, please notify it to your
                     closest
                     Organizer. Help us keep this community open and friendly.</p>
@@ -59,24 +56,17 @@ class CodeofConduct extends Component {
                     provide
                     escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the
                     event.</p>
-                <h2>Slack Communication Best Practices:</h2>
-                <p>Use of proper channels.</p>
+                <h1>Slack interactions</h1>
+                <p>Use @channel and @everyone only when necessary. It pings everyone.</p>
+                <p>Here's a list of general channels you can use and a description for each and every one of them.</p>
                 <ul>
                     <li>#announcements: Announcements from the administrators to the community.</li>
-                    <li>#community-website: Interested people that want to be part of a real world website.</li>
-                    <li>#general: our main channel, all introductions are done on this channel, and mayor public
-                        conversations.
-                    </li>
+                    <li>#community-website: Interested people that want to be part of a real world website development.</li>
+                    <li>#general: our main channel, all introductions are done on this channel, and mayor public conversations.</li>
                     <li>#Links-and-resources: Share relevant resources that can enrich the community's knowledge.</li>
-                    <li>#Jobboard: for posting Job seeking related material, also job opportunities that could benefit
-                        other
-                        members.
-                    </li>
+                    <li>#Jobboard: for posting Job seeking related material, also job opportunities that could benefit other members.</li>
                     <li>#Virtualmeetup: this channel is reserved to be used whenever we have a virtual event.</li>
-                    <li>#random: bad programmer jokes, or memes, invitations to beers, cats and dogs, or other content
-                        that you
-                        would like to share with the community as long as it doesn't violates the Code of Conduct.
-                    </li>
+                    <li>#random: bad programmer jokes, or memes, invitations to beers, cats and dogs, or other content that you would like to share with the community as long as it doesn't violates the Code of Conduct.</li>
                 </ul>
             </div>
             <Footer/>

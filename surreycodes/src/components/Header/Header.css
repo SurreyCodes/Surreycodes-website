@@ -7,13 +7,13 @@
     z-index: 999;
 }
 .logo{
-    transition: 0.4s;
+    transition: 0.3s;
     transform: scale(3);
     transform-origin: top;
     z-index: 99;
 }
 .logo-true{
-    transition: 0.4s;
+    transition: 0.3s;
     transform: scale(1);
     z-index: 99;
 }
@@ -73,15 +73,15 @@
 }
 @media only screen and (max-width: 720px) {
     .header-mobile{
-        transition: height .5s;
-        -webkit-transition: height .5s; /* Safari */
+        transition: height .4s;
+        -webkit-transition: height .4s; /* Safari */
         height: 60px;
         overflow: hidden;
         transition-timing-function: ease-in-out;
     }
     .header-mobile-drop{
-        transition: height 1s;
-        -webkit-transition: height 1s; /* Safari */
+        transition: height .4s;
+        -webkit-transition: height .4s; /* Safari */
         height: 350px;
         overflow: hidden;
         transition-timing-function: ease-in-out;
