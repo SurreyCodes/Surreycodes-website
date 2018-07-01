@@ -26,12 +26,17 @@
     padding: 2.3em;
 }
 #CodeofConduct>div>h1 {
-    text-align: center;
-    margin: 20px 0;
+    margin: 20px 12px;
 }
 #CodeofConduct>div>p {
     margin: 20px 0;
 }
 #CodeofConduct>div>ul>li {
     margin: 10px 0;
+}
+
+@media only screen and (min-width: 720px) {
+    #CodeofConduct>div{
+        margin: 0 16%;
+    }
 }
