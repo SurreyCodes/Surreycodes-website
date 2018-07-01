@@ -17,9 +17,9 @@ class Footer extends Component {
           <ul className="footer-list">
             <Link to="/codeofconduct">Our Code of Conduct</Link>
             <li>{' • '}</li>
-            <Link to="/Volunteer">Volunteer with Us</Link>
+            <Link to="/volunteer">Volunteer with Us</Link>
             <li>{' • '}</li>
-            <Link to="/Sponsor">Sponsor Us</Link>
+            <Link to="/sponsors">Sponsor Us</Link>
           </ul>
         </div>
       </footer>
