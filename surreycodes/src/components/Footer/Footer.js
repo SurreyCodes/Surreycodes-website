@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './Footer.css';
 
 class Footer extends Component {
@@ -11,17 +12,17 @@ class Footer extends Component {
   }
   render(){
     return(
-        <footer id="footer">
-          <div className="container">
-            <ul className="footer-list">
-              <li>Our Code of Conduct</li>
-              <li>{'• '}</li>
-              <li>Volunteer with Us</li>
-              <li>{'• '}</li>
-              <li>Sponsor Us</li>
-            </ul>
-          </div>
-        </footer>
+      <footer id="footer">
+        <div className="container">
+          <ul className="footer-list">
+            <Link to="/codeofconduct">Our Code of Conduct</Link>
+            <li>{' • '}</li>
+            <Link to="/Volunteer">Volunteer with Us</Link>
+            <li>{' • '}</li>
+            <Link to="/Sponsor">Sponsor Us</Link>
+          </ul>
+        </div>
+      </footer>
     );
   }
 }

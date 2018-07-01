@@ -6,6 +6,7 @@ import IconSpeaker from '../../assets/Icon Speaker.svg';
 import SurreyCodesMembers from '../../assets/SurreyCodesMembers.jpg';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
+import './FulltimeProgram.css';
 
 
 
