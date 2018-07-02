@@ -6,8 +6,8 @@ class Hook extends Component {
   render(){
     return(
       <div id="hook">
-        <div className="hero">
-         <img src={Audience} alt="Audience Raising their hands" className="img-hero"/>
+        <div>
+         <img src={Audience} alt="Audience Raising their hands"/>
             <h1>PEER TO PEER MENTORING<br />TECH FOUNDATION</h1>
         </div>
       </div>

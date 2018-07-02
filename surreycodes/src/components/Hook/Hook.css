@@ -1,43 +1,56 @@
 #hook{
     position: static;
 }
-.hero {
+#hook>div{
+    display: flex;
     width: 100%;
     max-width: 2800px;
-    height: 25%;
+    height: 50%;
     text-align: center;
     margin: 0;
     position: relative;
 }
-.hero .img-hero{
-    width: 100%;
-    max-width: 100%;
+#hook>div>img{
+    height: 300px;
+    width: auto;
     position: static;
     opacity: 0.8;
     filter: alpha(opacity=80); /* For IE8 and earlier */
 }
-.hero h1 {
-    font-size: 2.5em;
+#hook>div>h1{
+    font-size: 2em;
     font-family: 'Roboto Mono', monospace;
-    margin: auto;
+    padding: .5em;
     position: absolute;
     top: 49%;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
-    color: var(--gray);
+    color: var(--white);
+    font-weight: bolder;
+    text-shadow: 3px 2px var(--gray);
+    text-align: center;
 }
-@media all and (max-width: 768px) {
-    .hero{
-        height: 50vw;
+@media all and (min-width: 480px) {
+    #hook>div{
+    display: flex;
+    align-content: center;
+    justify-content: center;
     }
-    .hero h1 {
-        font-size: 6vw;
-        top: 10vw;
+    #hook>div>img{
+        height: 320px;
+    }
+    #hook>div>h1{
+        font-size: 2.6em;
     }
 }
-.jumbotron{
-    background-color: grey;
-    padding-bottom: 100px;
+@media only screen and (min-width: 720px){
+    #hook>div>img{
+        height: 450px;
+    }
+    #hook>div>h1{
+        font-size: 3em;
+    }
+}
+@media only screen and (min-width: 1400px){
+    #hook>div>img{
+        height: 600px;
+    }
 }
