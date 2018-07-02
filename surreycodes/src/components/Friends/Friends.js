@@ -7,8 +7,8 @@ import './Friends.css';
 class Friends extends Component {
   render(){
     return(
-      <div id="friends-surreycodes" className="container">
-        <h1>Friends of the Community</h1>
+      <div id="friends-surreycodes">
+        <h1>Our Friends</h1>
         <div className="friend-list">
           <i id="left-arrow" className="fa fa-caret-left"></i>
           <i id="right-arrow" className="fa fa-caret-right"></i>

@@ -35,7 +35,7 @@ class Header extends Component {
             <Link className="nav-link active" to="/">Home</Link>
             <Link className="nav-link" to="/about">About Us</Link>
             <Link className="nav-link" to="/fulltime">Learn to Code</Link>
-            <Link className="nav-link" to="/volunteer">Join Us</Link>
+            <Link className="nav-link" to="/volunteer">Our Team</Link>
             <Link className="nav-link" to="/sponsors">Our Sponsors</Link>
           </nav>
         </div>

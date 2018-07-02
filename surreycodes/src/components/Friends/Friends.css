@@ -1,15 +1,12 @@
 #friends-surreycodes{
-    font-size: 1.5em;
-}
-#friends-surreycodes h1{
-    padding: 1.1em 0;
-    font-size: 1.5em;
+    padding: 3em 10%;
+    z-index: 99;
 }
 .friend-list{
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
 }
 .friend-list .circles{
     margin: 0 20px;
@@ -17,12 +14,12 @@
 #left-arrow{
     position: absolute;
     left: -27px;
-    transform: scale(5);
+    transform: scale(2);
     color: var(--gray);
 }
 #right-arrow{
     position: absolute;
     right: -27px;
-    transform: scale(5);
+    transform: scale(2);
     color: var(--gray);
 }

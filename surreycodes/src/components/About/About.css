@@ -1,10 +1,9 @@
 #about{
     position: relative;
-    padding: 4em 0;
+    padding: 3em 10%;
 }
 #about h1 {
     padding-bottom: 1.1em;
-    font-size: 3em;
 }
 #about a{
     color: #4B4A4C;

@@ -4,7 +4,7 @@ import Header from './components/Header/Header';
 import Meetup from './components/Meetup/Meetup';
 import Hook from './components/Hook/Hook';
 import About from './components/About/About';
-import Community from './components/Community';
+import Features from './components/Features/Features';
 import Subscribe from './components/Subscribe/Subscribe';
 import Friends from './components/Friends/Friends';
 import Members from './components/Members/Members';
@@ -44,7 +44,7 @@ class App extends Component {
           </article>
           <article id="section-three">
             <div className="green-section"></div>
-            <Community />
+            <Features />
             <Members />
             <Subscribe />
             <Friends />

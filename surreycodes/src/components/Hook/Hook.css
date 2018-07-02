@@ -19,7 +19,6 @@
     filter: alpha(opacity=80); /* For IE8 and earlier */
 }
 #hook>div>h1{
-    font-size: 2em;
     font-family: "Montserrat:400", sans-serif;
     padding: .5em;
     position: absolute;

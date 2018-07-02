@@ -1,23 +1,28 @@
-#member{
-    padding: 4em 0;
-    display: flex;
-    flex-flow: column;
-    justify-content: space-between;
-    position: relative;
-    z-index: 99;
+#member {
+    display: none;
 }
-#member h1{
-    padding-bottom: .8em;
-    font-size: 3em;
-}
-.member-statements{
-    flex: 1;
-    background: #FFFFFF;
-    padding: 10px;
-    border-radius: 8px;
-}
-.member-images{
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-around;
+
+@media only screen and (min-width: 720px) {
+    #member{
+        display: flex;
+        padding: 3em 10%;
+        flex-flow: column;
+        justify-content: space-between;
+        position: relative;
+        z-index: 99;
+    }
+    #member h1{
+        padding-bottom: .8em;
+    }
+    .member-statements{
+        flex: 1;
+        background: #FFFFFF;
+        padding: 10px;
+        border-radius: 8px;
+    }
+    .member-images{
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-around;
+    }
 }

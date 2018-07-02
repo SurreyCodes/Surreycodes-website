@@ -19,7 +19,8 @@ ReactDOM.render(
       <Route exact path="/" component={App}/>
       <Route path="/sponsors" component={Sponsor}/>
       <Route path="/fulltime" component={FulltimeProgram}/>
-      <Route path="/codeofconduct" component={CodeofConduct}></Route>
+      <Route path="/codeofconduct" component={CodeofConduct}/>
+      <Route path="/community" component={CodeofConduct}/>
     </div>
   </Router>
 , document.getElementById('root'));

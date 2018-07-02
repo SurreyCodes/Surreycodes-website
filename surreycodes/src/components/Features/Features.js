@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Slack from '../assets/slack-logo.svg';
-import Fulltime from '../assets/SurreyCodesFullTimeProgram.svg';
-import Hack4Good from '../assets/SurreyCodeCampLogoNew.svg';
-import Job from '../assets/briefcase-lightblue.svg';
+import Slack from '../../assets/slack-logo.svg';
+import Fulltime from '../../assets/SurreyCodesFullTimeProgram.svg';
+import Hack4Good from '../../assets/SurreyCodeCampLogoNew.svg';
+import Job from '../../assets/briefcase-lightblue.svg';
 import Card from './Cards/Card';
 
 
-class Community extends Component {
+class Features extends Component {
 
   render(){
     return(
@@ -22,4 +22,4 @@ class Community extends Component {
   }
 }
 
-export default Community;
+export default Features;
