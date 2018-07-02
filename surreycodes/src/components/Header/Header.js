@@ -34,9 +34,9 @@ class Header extends Component {
             <button id="toggler" onClick={this.toggleMenu.bind(this)}><i className="fa fa-bars"></i></button>
             <Link className="nav-link active" to="/">Home</Link>
             <Link className="nav-link" to="/about">About Us</Link>
-            <Link className="nav-link" to="/events">Events</Link>
-            <Link className="nav-link" to="/about">Members</Link>
-            <Link className="nav-link" to="/sponsors">Sponsors</Link>
+            <Link className="nav-link" to="/fulltime">Learn to Code</Link>
+            <Link className="nav-link" to="/volunteer">Join Us</Link>
+            <Link className="nav-link" to="/sponsors">Our Sponsors</Link>
           </nav>
         </div>
       </header>

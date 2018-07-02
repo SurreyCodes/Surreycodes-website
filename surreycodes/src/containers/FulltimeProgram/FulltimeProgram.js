@@ -21,7 +21,7 @@ class FulltimeProgram extends Component {
                   <h1>LEARN TO CODE</h1>
                   <h3>By Supporting Non-Profit Projects</h3>
                   <div className="button-container">
-                      <button>KickStart Campaign</button>
+                  <button>KickStart Campaign</button>
                   <button>Available Projects</button>
               </div>
                   </div>
