@@ -1,9 +1,14 @@
+/*
+/////////////////////////
+Landing Image
+/////////////////////////
+*/
 .fulltime-landingSection {
     width: 100%;
     max-width: 2800px;
     height: 25%;
     text-align: center;
-    margin: 0;
+    padding-top: 22px;
     position: relative;
 }
 .fulltime-landingSection img{
@@ -15,39 +20,57 @@
     filter: alpha(opacity=70); /* For IE8 and earlier */
 }
 .title-landingSection{
-    font-size: 2.8vw;
     font-family: 'Montserrat:700', sans-serif;
     margin: auto;
     position: absolute;
     top: 30%;
-    left: 0;
-    right: 0;
+    left: 5%;
+    right: 5%;
     bottom: 0;
     z-index: 1;
-    color: #fff;
+    color: var(--white);
+    text-shadow: 3px 2px var(--gray);
 }
-.fulltime-features {
-    width: 90%;
+.button-container {
     display: flex;
-    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
     text-align: center;
     flex-wrap: wrap;
-    font-size: large;
-    justify-content: space-evenly;
-
-}
-.feature img{
-    width: 15vw;
-    height: 100%;
-}
-.calltoaction {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-}
-.calltoaction img {
-    width: 20vw;
-    height: 100%;
+    margin: 2em 0;
+    align-content: center;
 }
 
+.button-container button {
+    font-family: 'Montserrat:300', sans-serif;
+    border: none;
+    color: Green;
+    padding: 10px 2em;
+    width: 8em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+    display: inline-block;
+    font-size: .8em;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+}
+
+.button-container button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.button-container button:active {
+    background-color: #4CAF50;
+    box-shadow: 0 3px #006800;
+    transform: translateY(2px);
+}
+/*
+/////////////////////////
+All other code
+/////////////////////////
+*/
+#FulltimeProgram>div{
+    padding: 3em 10%;
+}

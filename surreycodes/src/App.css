@@ -138,47 +138,7 @@ SECTION THREE -- COMMUNITY & SUBSCRIBE & FRIENDS COMPONENTS
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: #C4C4C4;
 }
 /* TEMPORARY END*/
 
 
-/*
-/////////////////////////
-Buttons
-/////////////////////////
-*/
-.button-container {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  text-align: center;
-  flex-wrap: wrap;
-  margin: 2em;
-  align-content: center;
-}
-
-.button-container button {
-  border: none;
-  color: Green;
-  padding: 15px 10px;
-  width: 29%;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 12px;
-  display: inline-block;
-  font-size: .8em;
-  -webkit-transition-duration: 0.2s; /* Safari */
-  transition-duration: 0.2s;
-}
-
-.button-container button:hover {
-  background-color: #4CAF50; /* Green */
-  color: white;
-}
-
-.button-container button:active {
-  background-color: #4CAF50;
-  box-shadow: 0 3px #006800;
-  transform: translateY(2px);
-}

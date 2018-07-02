@@ -1,0 +1,10 @@
+.calltoaction {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.calltoaction img {
+    width: 20vw;
+    height: 100%;
+}

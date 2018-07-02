@@ -1,19 +1,15 @@
 import React, { Component } from 'react';
-import IconCup from '../../assets/Icon - Blue Cup.svg';
-import IconHeart from '../../assets/Icon - Green Heart.svg';
-import IconPartners from '../../assets/Icon - Green partner.svg';
-import IconSpeaker from '../../assets/Icon Speaker.svg';
 import SurreyCodesMembers from '../../assets/SurreyCodesMembers.jpg';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import './FulltimeProgram.css';
-
+import Subscribe from "../../components/Subscribe/Subscribe";
 
 
 class FulltimeProgram extends Component {
   render(){
       return (
-      <div>
+      <div id="FulltimeProgram">
           <Header/>
           <section className="fulltime-landingSection">
               <img src={SurreyCodesMembers} alt="Our Campers Studying and Nonprofit can submit their projects" />
@@ -21,43 +17,38 @@ class FulltimeProgram extends Component {
                   <h1>LEARN TO CODE</h1>
                   <h3>By Supporting Non-Profit Projects</h3>
                   <div className="button-container">
-                  <button>KickStart Campaign</button>
-                  <button>Available Projects</button>
-              </div>
+                  <button>Apply</button>
+                  <button>Projects</button>
                   </div>
-          </section>
-          <section className="fulltime-features">
-              <h1>Community Benefits</h1>
-              <div className="feature">
-                  <img src={IconCup} alt="Cup of Victory!"/>
-                  <h3>Students</h3>
-                  <p>Get from new coder to Full Stack and Job ready for free with a community to back your
-                      knowledge.</p>
-              </div>
-              <div className="feature">
-                  <img src={IconHeart} alt="Heart of Gold!"/>
-                  <h3>Non Profits</h3>
-                  <p>Focus your resources to help our communities most in need and less in webdevelopment.</p>
-              </div>
-              <div className="feature">
-                  <img src={IconPartners} alt="Partner and help!"/>
-                  <h3>Partner Companies</h3>
-                  <p>Hire Full Stack developers with a record of teawork and self-learning that have done coding for good.</p>
               </div>
           </section>
-          <section className="calltoaction">
-              <img src={IconSpeaker} alt="A Big interesting speaker!"/>
-              <p>British Columbia’s Non-profits spends about $100 MM dollars every year in tech support. Those are $100MM dollars that could go towards the most in need.</p>
-          </section>
-          <section className="subscribe">
-              <h1>Help us raise the funds we need to make this come true</h1>
-              <input type="email" placeholder="example@surreycodes.com"></input>
-              <button className="cr-scan-ct" type="submit">SUBSCRIBE</button>
-          </section>
+          <div>
+              <h3>Cutting Edge Open-source Curriculum</h3>
+              <h3>Self-learning FTW!</h3>
+              <p>The SurreyCodes Foundation was founded by self-learners, for self-learners.</p>
+              <p>We believe that high quality education should be accessible to everyone. Only though our meetups new developers have gone from newbie to job-ready. And they stay to mentor new developers on the journey they know.</p>
+              <p>The SurreyCodes Foundation welcomes all aplicants who are over 18 years old and legally entitled to work in Canada.</p>
+              <h2>The Eligibility Process</h2>
+              <h3>Prerequisites</h3>
+              <p>In order to apply to our fulltime program, we ask all applicants to extend their best effort fullfiling the list below</p>
+              <ol>
+                  <li>We host <a href="https://www.meetup.com/SurreyCodes/" target="_blank">regular meetups</a>, make sure to attend.</li>
+                  <li>Create a GitHub account, it will help you with other prerequisites below</li>
+                  <li>Join <a href="https://goo.gl/forms/SEmsu7E0sDJxs3Uq2" target="_blank">our Slack Community</a>. Make sure to note that you are a fulltime program applicant in your last answer.</li>
+                  <li>We require you to prepare your journey as a web developer by completing the following sections of FreeCodeCamp's curriculum:
+                      <ul>
+                          <li></li>
+                          <li></li>
+                      </ul>
+                  </li>
+              </ol>
+              <h2>Our 16 weeks fulltime program</h2>
+          </div>
+          <Subscribe/>
           <section className="backers">
               <h1>These companies are already involved:</h1>
               <a href=""><img src="" alt="Beta Collective"/></a>
-              <a href=""><img src="" alt="Microsoft Corporation"/></a>
+              <a href=""><img src="" alt="Typow Media"/></a>
               <a href=""><img src="" alt=""/></a>
               <a href=""><img src="" alt=""/></a>
               <a href=""><img src="" alt=""/></a>
