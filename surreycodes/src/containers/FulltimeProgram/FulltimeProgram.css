@@ -37,6 +37,7 @@ Landing Image
     flex-direction: row;
     text-align: center;
     flex-wrap: wrap;
+    padding-top: 8em; 
     margin: 2em 0;
     align-content: center;
 }
@@ -49,9 +50,10 @@ Landing Image
     width: 8em;
     text-align: center;
     text-decoration: none;
+    padding: 15px 20px;
     border-radius: 12px;
     display: inline-block;
-    font-size: .8em;
+    font-size: 1.7rem;
     -webkit-transition-duration: 0.2s; /* Safari */
     transition-duration: 0.2s;
 }

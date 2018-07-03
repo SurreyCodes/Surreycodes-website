@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Logo from '../../assets/SurreyCodeCampLogoNew.svg';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Header.css';
 
 class Header extends Component {
@@ -28,15 +28,15 @@ class Header extends Component {
       <header id="header" className="header-mobile">
         <div className="container">
           <nav className="navbar">
-            <Link className={this.props.animate ? "branding logo-true" : "branding logo"} to="/">
+            <NavLink className={this.props.animate ? "branding logo-true" : "branding logo"} to="/" activeStyle={{border: 'none'}}>
               <img src={Logo} width="50" height="50" alt="SurreyCodes"/>
-            </Link>
+            </NavLink>
             <button id="toggler" onClick={this.toggleMenu.bind(this)}><i className="fa fa-align-justify" aria-hidden="true"></i></button>
-            <Link className="nav-link active" to="/">Home</Link>
-            <Link className="nav-link" to="/about">About Us</Link>
-            <Link className="nav-link" to="/fulltime">Learn to Code</Link>
-            <Link className="nav-link" to="/volunteer">Our Team</Link>
-            <Link className="nav-link" to="/sponsors">Our Sponsors</Link>
+            <NavLink exact className="nav-link" to="/">Home</NavLink>
+            <NavLink className="nav-link" to="/about">About Us</NavLink>
+            <NavLink className="nav-link" to="/fulltime">Learn to Code</NavLink>
+            <NavLink className="nav-link" to="/volunteer">Our Team</NavLink>
+            <NavLink className="nav-link" to="/sponsors">Our Sponsors</NavLink>
           </nav>
         </div>
       </header>
