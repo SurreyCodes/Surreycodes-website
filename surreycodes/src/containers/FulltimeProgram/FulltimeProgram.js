@@ -23,10 +23,9 @@ class FulltimeProgram extends Component {
               </div>
           </section>
           <div>
-              <h3>Cutting Edge Open-source Curriculum</h3>
-              <h3>Self-learning FTW!</h3>
-              <p>The SurreyCodes Foundation was founded by self-learners, for self-learners.</p>
-              <p>We believe that high quality education should be accessible to everyone. Only though our meetups new developers have gone from newbie to job-ready. And they stay to mentor new developers on the journey they know.</p>
+              <h1>Open-source Curriculum</h1>
+              <h3>Founded by self-learners, for self-learners.</h3>
+              <p>We believe that high quality education should be accessible to everyone. And we dedicate our existence to cultivate new developers from newbie to job-ready.</p>
               <p>The SurreyCodes Foundation welcomes all aplicants who are over 18 years old and legally entitled to work in Canada.</p>
               <h2>The Eligibility Process</h2>
               <h3>Prerequisites</h3>

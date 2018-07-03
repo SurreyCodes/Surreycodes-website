@@ -73,10 +73,43 @@ All other code
 #FulltimeProgram>div{
     padding: 3em 10%;
 }
+#FulltimeProgram>div>h2,#FulltimeProgram>div>h1{
+    text-align: center;
+}
+#FulltimeProgram>div>h2,#FulltimeProgram>div>h3{
+    margin: 1.7em 0;
+}
+#FulltimeProgram>div>p{
+    margin: 1em 0;
+    font-size: large;
+}
 #FulltimeProgram>div>button{
     width: 10em;
     font-size: x-large;
 }
 #FulltimeProgram>div>ol{
-    padding: 10px 2px;
+    padding-left: 10px;
+}
+#FulltimeProgram>div>ol>li{
+    padding: 5px 0;
+}
+#FulltimeProgram>div>ol>li>ul{
+    padding-left: 17px;
+    padding-top: 5px;
+}
+#FulltimeProgram>div>ol>li>ul>li{
+    padding: 5px 0;
+}
+#FulltimeProgram>div>ol>li>ul>li>ul{
+    padding-left: 17px;
+    padding-top: 5px;
+}
+#FulltimeProgram>div>ol>li>ul>li>ul>li{
+    padding: 4px 0;
+}
+#FulltimeProgram>div>ul{
+    padding-left: 10px;
+}
+#FulltimeProgram>div>ul>li{
+    padding: 5px 0;
 }

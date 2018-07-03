@@ -31,7 +31,7 @@ class Header extends Component {
             <Link className={this.props.animate ? "branding logo-true" : "branding logo"} to="/">
               <img src={Logo} width="50" height="50" alt="SurreyCodes"/>
             </Link>
-            <button id="toggler" onClick={this.toggleMenu.bind(this)}><i className="fa fa-bars"></i></button>
+            <button id="toggler" onClick={this.toggleMenu.bind(this)}><i className="fa fa-align-justify" aria-hidden="true"></i></button>
             <Link className="nav-link active" to="/">Home</Link>
             <Link className="nav-link" to="/about">About Us</Link>
             <Link className="nav-link" to="/fulltime">Learn to Code</Link>
