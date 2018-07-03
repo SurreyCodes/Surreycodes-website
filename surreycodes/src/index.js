@@ -5,6 +5,8 @@ import App from './App';
 import Sponsors from './containers/Sponsors/Sponsors';
 import FulltimeProgram from './containers/FulltimeProgram/FulltimeProgram';
 import CodeofConduct from "./containers/CodeofConduct/CodeofConduct";
+import Header from './components/Header/Header';
+import WhenLeavingView from './components/WhenLeavingView';
 
 import registerServiceWorker from './registerServiceWorker';
 
@@ -16,6 +18,11 @@ import {
 ReactDOM.render(
   <Router>
     <div>
+    <WhenLeavingView>
+          {({ isLeavingView }) =>
+            <Header animate={isLeavingView}/>
+          }
+        </WhenLeavingView>
       <Route exact path="/" component={App}/>
       <Route path="/sponsors" component={Sponsors}/>
       <Route path="/fulltime" component={FulltimeProgram}/>

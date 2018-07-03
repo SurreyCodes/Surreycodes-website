@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Meetup.css';
-import axios from 'axios';
 
 class Meetup extends Component {
   render(){
