@@ -41,7 +41,7 @@ Landing Image
     align-content: center;
 }
 
-.button-container button {
+.button-container button,#FulltimeProgram>div>button {
     font-family: 'Montserrat:300', sans-serif;
     border: none;
     color: Green;
@@ -55,13 +55,12 @@ Landing Image
     -webkit-transition-duration: 0.2s; /* Safari */
     transition-duration: 0.2s;
 }
-
-.button-container button:hover {
+.button-container button:hover,#FulltimeProgram>div>button:hover {
     background-color: #4CAF50; /* Green */
     color: white;
 }
 
-.button-container button:active {
+.button-container button:active,#FulltimeProgram>div>button:active {
     background-color: #4CAF50;
     box-shadow: 0 3px #006800;
     transform: translateY(2px);
@@ -73,4 +72,11 @@ All other code
 */
 #FulltimeProgram>div{
     padding: 3em 10%;
+}
+#FulltimeProgram>div>button{
+    width: 10em;
+    font-size: x-large;
+}
+#FulltimeProgram>div>ol{
+    padding: 10px 2px;
 }

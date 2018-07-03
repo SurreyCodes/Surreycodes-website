@@ -17,6 +17,14 @@ class Sponsors extends Component {
             <h1>Sponsors</h1>
             <p> -- Images and a link to each sponsor here --</p>
           </section>
+          <section className="backers">
+              <h1>These companies are already involved:</h1>
+              <a href=""><img src="" alt="Beta Collective"/></a>
+              <a href=""><img src="" alt="Typow Media"/></a>
+              <a href=""><img src="" alt=""/></a>
+              <a href=""><img src="" alt=""/></a>
+              <a href=""><img src="" alt=""/></a>
+          </section>
           <Footer />
       </div>
     );
