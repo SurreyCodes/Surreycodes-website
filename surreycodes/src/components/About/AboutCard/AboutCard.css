@@ -1,0 +1,12 @@
+#AboutCard {
+    align-self: center;
+    vertical-align: center;
+    text-align: center;
+    margin: 60px;
+    padding: 50px;
+    width: 50%;
+    box-shadow: 0px 2px 2px var(--light-green);
+    border-radius: 30px;
+    background-color: var(--white);
+
+}

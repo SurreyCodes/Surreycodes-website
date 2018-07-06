@@ -8,7 +8,7 @@ class AboutCard extends Component{
             <div id="AboutCard">
             <h1>Support BC Non-Profits tech<br/>By Learning to Code</h1>
             <NavLink to='/about'>
-                <button className="">HELLO</button>
+                <button type="button">Learn How</button>
             </NavLink>
             </div>
         )
