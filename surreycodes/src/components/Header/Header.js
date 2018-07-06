@@ -13,7 +13,7 @@ class Header extends Component {
   }
 
   toggleMenu(){
-    var toggler = !this.state.togglerIsToggled;
+    let toggler = !this.state.togglerIsToggled;
     if (toggler === true) {
       document.getElementById('header').classList.remove('header-mobile-drop');
     } else {

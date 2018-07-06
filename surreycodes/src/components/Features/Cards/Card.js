@@ -16,9 +16,9 @@ class Card extends Component {
   }
 
   hovered(id){
-    var hovered = !this.state.isHovered;
-    var bgColor = '';
-    var buttonColor = '#62AADD'
+    let hovered = !this.state.isHovered;
+    let bgColor = '';
+    let buttonColor = '#62AADD';
     if (id === 'fulltime'){
       bgColor = '#005725';
     } else if (id === 'slack') {
@@ -39,26 +39,26 @@ class Card extends Component {
 
 
   render(){
-    var bgColor = this.state.bgColor;
-    var buttonColor = this.state.buttonColor;
-    var flexButton = {
+    let bgColor = this.state.bgColor;
+    let buttonColor = this.state.buttonColor;
+    let flexButton = {
       display: 'block',
       background: `${buttonColor}`// used for the job button mainly.
-    }
-    var flexPara = {
+    };
+    let flexPara = {
       top: '0',
       marginTop: '40px'
-    }
-    var flexImage = {
+    };
+    let flexImage = {
       display: 'none'
-    }
-    var cardBackground = {
+    };
+    let cardBackground = {
       background: `${bgColor}`,
       boxShadow: '0 1px 1px 1px #000000'
-    }
+    };
     return(
       <div style={this.state.isHovered ? cardBackground : null} className="flex-card" onMouseEnter={(e) => this.hovered(this.props.identity)} onMouseLeave={(e) => this.hovered(this.props.identity)}>
-        <img style={this.state.isHovered ? flexImage : null} id={this.props.id} src={this.props.image} alt={this.props.alternate}></img>
+        <img style={this.state.isHovered ? flexImage : null} id={this.props.id} src={this.props.image} alt={this.props.alternate}/>
           <p style={this.state.isHovered ? flexPara : null}>{this.props.text}</p>
           <a href={this.props.location} className="cr-scan-ct" style={this.state.isHovered ? flexButton : null}>{this.props.button}</a>
       </div>

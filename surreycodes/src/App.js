@@ -8,7 +8,7 @@ import Subscribe from './components/Subscribe/Subscribe';
 import Friends from './components/Friends/Friends';
 import Members from './components/Members/Members';
 import Footer from './components/Footer/Footer';
-
+import AboutCard from './components/About/AboutCard/AboutCard';
 
 
 
@@ -19,6 +19,7 @@ class App extends Component {
       <div className="App" onScroll={this.handleScroll}>
           <article id="section-one">
             <Hook />
+            <AboutCard/>
             <About />
           </article>
           <article id="section-two">
