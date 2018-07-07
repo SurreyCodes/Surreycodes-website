@@ -1,0 +1,15 @@
+.NotFound {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: green;
+    height: 800px;
+}
+.NotFound p {
+    margin-top: 60px;
+    width: 70%;
+    padding: 8px;
+    color: #eee;
+    font-size: 1.8rem;
+}
