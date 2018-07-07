@@ -12,7 +12,7 @@ import AboutCard from './components/About/AboutCard/AboutCard'
 class App extends Component {
   render() {
     return (
-      <div className="App" onScroll={this.handleScroll}>
+      <div className="App">
         <article id="section-one">
           <Hook />
           <AboutCard />
