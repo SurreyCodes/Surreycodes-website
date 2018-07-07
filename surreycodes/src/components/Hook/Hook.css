@@ -1,86 +1,44 @@
 #hook{
-    position: static;
-}
-#hook>div{
-    display: flex;
+    background: url("../../assets/Audience-raising-their-hands.png") no-repeat fixed center;
+    background-size: cover;
     width: 100%;
     max-width: 2800px;
-    height: 50%;
-    align-content: center;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    text-align: center;
     margin: 0;
-    position: relative;
 }
-#hook>div>img{
-    height: 300px;
-    width: auto;
-    position: relative;
-    opacity: 0.8;
-    filter: alpha(opacity=80); /* For IE8 and earlier */
+#hook>div{
+    height: 100%;
 }
 #hook>div>h1{
     font-family: "Montserrat:400", sans-serif;
-    padding: .5em;
-    position: absolute;
-    top: 49%;
+    padding: 2em 10%;
     color: var(--white);
-    text-shadow: 3px 2px var(--gray);
+    text-shadow: 1px 2px var(--gray);
     text-align: center;
 }
-#hook>div>button{
-    position: absolute;
-    font-family: 'Montserrat:300', sans-serif;
-    top: 150%;
-    border: none;
-    color: Green;
-    padding: 10px 2em;
-    text-align: center;
-    border-radius: 12px;
-    display: inline-block;
-    font-size: larger;
-    -webkit-transition-duration: 0.2s; /* Safari */
-    transition-duration: 0.2s;
-}
-#hook>div>button:hover {
-    background-color: #4CAF50; /* Green */
-    color: white;
-}
-#hook>div>button:active {
-    background-color: #4CAF50;
-    box-shadow: 0 3px #006800;
-    transform: translateY(2px);
-}
+
 @media all and (min-width: 480px) {
-    #hook>div{
-    display: flex;
-    }
-    #hook>div>img{
-        height: 320px;
-    }
     #hook>div>h1{
+        padding: 1em 10%;
         font-size: 2.6em;
     }
 }
 @media only screen and (min-width: 720px){
-    #hook>div>img{
-        height: 450px;
+    #hook{
+        height: 500px;
     }
     #hook>div>h1{
+        padding: 1em 10%;
         font-size: 3em;
-    }
-    #hook>div>button{
-        padding: 15px 3em;
-        border-radius: 18px;
-        top: 125%;
     }
 }
 @media only screen and (min-width: 1400px){
-    #hook>div>img{
-        height: 600px;
-    }
-    #hook>div>button{
-        padding: 15px 3em;
-        border-radius: 18px;
-        font-size: x-large;
+    #hook{
+        height: 420px;
+        align-items: center;
     }
 }

@@ -32,11 +32,11 @@ class Header extends Component {
               <img src={Logo} width="50" height="50" alt="SurreyCodes"/>
             </NavLink>
             <button id="toggler" onClick={this.toggleMenu.bind(this)}><i className="fa fa-align-justify" aria-hidden="true"></i></button>
-            <NavLink exact className="nav-link" to="/">Home</NavLink>
-            <NavLink className="nav-link" to="/about">About Us</NavLink>
-            <NavLink className="nav-link" to="/fulltime">Learn to Code</NavLink>
-            <NavLink className="nav-link" to="/volunteer">Our Team</NavLink>
-            <NavLink className="nav-link" to="/sponsors">Our Sponsors</NavLink>
+            <NavLink exact className="nav-link" to="/">HOME</NavLink>
+            <NavLink className="nav-link" to="/about">ABOUT US</NavLink>
+            <NavLink className="nav-link" to="/fulltime">LEARN TO CODE</NavLink>
+            <NavLink className="nav-link" to="/volunteer">OUR TEAM</NavLink>
+            <NavLink className="nav-link" to="/sponsors">OUR SPONSORS</NavLink>
           </nav>
         </div>
       </header>

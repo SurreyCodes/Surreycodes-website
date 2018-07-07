@@ -9,6 +9,11 @@ Tags: Coding community, website programming
 
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700');
+/*
+Reminder on how to assign these fonts:
+  font-family: 'Montserrat:{Number}', sans-serif;
+*/
 /*
 ////////////////////////
   GLOBAL STYLES
@@ -33,11 +38,6 @@ body{
 h1,h2,h3,h4,p{
   font-family: "Montserrat:300", sans-serif;
 }
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700');/*
-Reminder on how to assign these fonts:
-  font-family: 'Montserrat:{Number}', sans-serif;
-*/
 h1{
   font-size: 1.8em;
 }
@@ -111,6 +111,7 @@ SECTION TWO -- ABOUT COMPONENT
 /////////////////////////////////
 */
 #section-two{
+  display: flex;
   position: relative;
   z-index: 99;
 }
@@ -144,4 +145,29 @@ SECTION THREE -- COMMUNITY & SUBSCRIBE & FRIENDS COMPONENTS
 }
 /* TEMPORARY END*/
 
-
+/*
+/////////////////
+BUTTONS
+/////////////////
+*/
+.main-button{
+  font-family: 'Montserrat:300', sans-serif;
+  top: 150%;
+  border: none;
+  color: Green;
+  padding: 10px 2.3em;
+  text-align: center;
+  border-radius: 12px;
+  font-size: larger;
+  -webkit-transition-duration: 0.2s; /* Safari */
+  transition-duration: 0.2s;
+}
+.main-button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.main-button:active {
+  background-color: #4CAF50;
+  box-shadow: 0 3px #006800;
+  transform: translateY(2px);
+}
