@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import Meetup from './components/Meetup/Meetup';
 import Hook from './components/Hook/Hook';
-import About from './components/About/About';
 import Features from './components/Features/Features';
 import Subscribe from './components/Subscribe/Subscribe';
 import Friends from './components/Friends/Friends';
@@ -20,7 +19,6 @@ class App extends Component {
           <article id="section-one">
             <Hook />
             <AboutCard/>
-            <About />
           </article>
           <article id="section-two">
             <Meetup />

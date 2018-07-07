@@ -6,7 +6,7 @@ class AboutCard extends Component{
     render () {
         return (
             <div id="AboutCard">
-            <h1>Support BC Non-Profits tech<br/>By Learning to Code</h1>
+            <h1>Create software for other non profits</h1>
             <NavLink to='/about'>
                 <button className="main-button" type="button">Learn How</button>
             </NavLink>

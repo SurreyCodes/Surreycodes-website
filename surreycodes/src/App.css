@@ -111,6 +111,7 @@ SECTION TWO -- ABOUT COMPONENT
 /////////////////////////////////
 */
 #section-two{
+  display: flex;
   position: relative;
   z-index: 99;
 }
