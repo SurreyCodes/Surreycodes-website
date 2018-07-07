@@ -6,7 +6,6 @@ import Features from './components/Features/Features'
 import Subscribe from './components/Subscribe/Subscribe'
 import Friends from './components/Friends/Friends'
 import Members from './components/Members/Members'
-import Footer from './components/Footer/Footer'
 import AboutCard from './components/About/AboutCard/AboutCard'
 
 class App extends Component {
@@ -27,7 +26,6 @@ class App extends Component {
           <Subscribe />
           <Friends />
         </article>
-        <Footer />
       </div>
     )
   }

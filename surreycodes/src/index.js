@@ -6,11 +6,13 @@ import Sponsors from './containers/Sponsors/Sponsors'
 import FulltimeProgram from './containers/FulltimeProgram/FulltimeProgram'
 import CodeofConduct from './containers/CodeofConduct/CodeofConduct'
 import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
 import WhenLeavingView from './components/WhenLeavingView'
+import NotFound from './components/NotFound/NotFound'
 
 import registerServiceWorker from './registerServiceWorker'
 
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 ReactDOM.render(
   <Router>
@@ -18,11 +20,15 @@ ReactDOM.render(
       <WhenLeavingView>
         {({ isLeavingView }) => <Header animate={isLeavingView} />}
       </WhenLeavingView>
-      <Route exact path="/" component={App} />
-      <Route path="/sponsors" component={Sponsors} />
-      <Route path="/fulltime" component={FulltimeProgram} />
-      <Route path="/codeofconduct" component={CodeofConduct} />
-      <Route path="/community" component={CodeofConduct} />
+      <Switch>
+        <Route exact path="/" component={App} />
+        <Route path="/sponsors" component={Sponsors} />
+        <Route path="/fulltime" component={FulltimeProgram} />
+        <Route path="/codeofconduct" component={CodeofConduct} />
+        <Route path="/community" component={CodeofConduct} />
+        <Route component={NotFound} />
+      </Switch>
+      <Footer />
     </div>
   </Router>,
   document.getElementById('root')
