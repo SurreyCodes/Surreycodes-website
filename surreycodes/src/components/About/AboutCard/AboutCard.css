@@ -5,7 +5,7 @@
     margin: 60px;
     padding: 50px;
     width: 50%;
-    box-shadow: 0px 2px 2px var(--light-green);
+    box-shadow: 0 2px 2px var(--light-green);
     border-radius: 30px;
     background-color: var(--white);
 
