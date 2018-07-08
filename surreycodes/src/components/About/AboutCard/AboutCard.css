@@ -3,9 +3,27 @@
     vertical-align: center;
     text-align: center;
     margin: 60px;
-    padding: 50px;
+    padding: 2em;
     width: 50%;
     box-shadow: 0 2px 2px var(--light-green);
     border-radius: 30px;
     background-color: var(--white);
+}
+#AboutCard>h3{
+    padding: 1em 0;
+    margin: 0;
+}
+
+@media only screen and (min-width: 480px) {
+    #AboutCard{
+        width: 70%;
+    }
+    #AboutCard > h3 {
+        font-size: x-large;
+    }
+}
+@media only screen and (min-width: 780px) {
+    #AboutCard > h3 {
+        font-size: xx-large;
+    }
 }

@@ -152,7 +152,6 @@ BUTTONS
 */
 .main-button{
   font-family: 'Montserrat:300', sans-serif;
-  top: 150%;
   border: none;
   color: Green;
   padding: 10px 2.3em;
@@ -170,4 +169,10 @@ BUTTONS
   background-color: #4CAF50;
   box-shadow: 0 3px #006800;
   transform: translateY(2px);
+}
+@media only screen and  (min-width: 480px) {
+  .main-button{
+    font-size: x-large;
+    padding: 12px 2em;
+  }
 }
