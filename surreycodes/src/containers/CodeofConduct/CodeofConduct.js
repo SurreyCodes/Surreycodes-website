@@ -7,7 +7,6 @@ import './CodeofConduct.css';
 class CodeofConduct extends Component {
     render(){
         return <div id="CodeofConduct">
-            <Header/>
             <section>
                 <h1><strong>OUR CODE OF CONDUCT</strong></h1>
                 </section>
@@ -69,7 +68,6 @@ class CodeofConduct extends Component {
                     <li>#random: bad programmer jokes, or memes, invitations to beers, cats and dogs, or other content that you would like to share with the community as long as it doesn't violates the Code of Conduct.</li>
                 </ul>
             </div>
-            <Footer/>
         </div>;
     }
 }

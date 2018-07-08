@@ -15,7 +15,7 @@ class Footer extends Component {
       <footer id="footer">
             <Link to="/codeofconduct">Our Code of Conduct</Link>
             <span>{'•'}</span>
-            <Link to="/volunteer">Volunteer with Us</Link>
+            <Link to="/team">Volunteer with Us</Link>
             <span>{'•'}</span>
             <Link to="/sponsors">Sponsor Us</Link>
       </footer>
