@@ -5,6 +5,8 @@ import App from './App'
 import Sponsors from './containers/Sponsors/Sponsors'
 import FulltimeProgram from './containers/FulltimeProgram/FulltimeProgram'
 import CodeofConduct from './containers/CodeofConduct/CodeofConduct'
+import About from './components/About/About'
+import Team from './containers/Team/Team'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 import WhenLeavingView from './components/WhenLeavingView'
@@ -25,7 +27,8 @@ ReactDOM.render(
         <Route path="/sponsors" component={Sponsors} />
         <Route path="/fulltime" component={FulltimeProgram} />
         <Route path="/codeofconduct" component={CodeofConduct} />
-        <Route path="/community" component={CodeofConduct} />
+        <Route path="/about-us" component={About}/>
+        <Route path="/team" component={Team}/>
         <Route component={NotFound} />
       </Switch>
       <Footer />

@@ -33,9 +33,9 @@ class Header extends Component {
             </NavLink>
             <button id="toggler" onClick={this.toggleMenu.bind(this)}><i className="fa fa-align-justify" aria-hidden="true"></i></button>
             <NavLink exact className="nav-link" to="/">HOME</NavLink>
-            <NavLink className="nav-link" to="/about">ABOUT US</NavLink>
+            <NavLink className="nav-link" to="/about-us">ABOUT US</NavLink>
             <NavLink className="nav-link" to="/fulltime">LEARN TO CODE</NavLink>
-            <NavLink className="nav-link" to="/volunteer">OUR TEAM</NavLink>
+            <NavLink className="nav-link" to="/team">OUR TEAM</NavLink>
             <NavLink className="nav-link" to="/sponsors">OUR SPONSORS</NavLink>
           </nav>
         </div>

@@ -1,10 +1,15 @@
+#Sponsors{
+    padding-top: 16px;
+}
 .calltoaction {
+    padding: 30px;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
-
+    justify-content: center;
+    text-align: center;
 }
 .calltoaction img {
-    width: 20vw;
+    width: 20vmax;
     height: 100%;
 }
