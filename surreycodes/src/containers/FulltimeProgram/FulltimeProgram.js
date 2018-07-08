@@ -9,7 +9,6 @@ class FulltimeProgram extends Component {
   render() {
     return (
       <div id="FulltimeProgram">
-        <Header />
         <section className="fulltime-landingSection">
           <img
             src={SurreyCodesMembers}
