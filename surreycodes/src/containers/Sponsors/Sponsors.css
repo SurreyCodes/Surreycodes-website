@@ -13,10 +13,7 @@
     color: #FFFFFF;
 }
 .calltoaction img {
-    padding-right: 20px;
-    min-width: 60px;
-    max-width: 20%;
-    height: auto;
+    display: none;
 }
 #Sponsors>h1{
     align-self: center;
@@ -28,13 +25,38 @@
     color: var(--gray);
     background-color: var(--blue);
 }
-#Sponsors>h2{
+#Sponsors a {
+    color: var(--dark-green);
+    text-decoration: none;
     text-align: center;
-    padding: 1em 5%;
+    padding: 1.2em 5%;
+}
+#Sponsors a:hover {
+    transform: scale(1.025);
 }
 .howtohelp {
-    padding: 0 5%;
+    padding: 1.2em 5%;
 }
 .howtohelp p{
-    margin: 30px 5% 0 5%;
+    margin: 20px 5%;
+}
+.backers {
+    padding: 1em 5%;
+}
+.backers h2 {
+    margin: 50px 0;
+}
+.backers img {
+
+}
+
+@media only screen and (min-width: 420px) {
+    .calltoaction img {
+        display: inherit;
+        padding-right: 20px;
+        min-width: 60px;
+        max-width: 20%;
+        height: auto;
+    }
+
 }

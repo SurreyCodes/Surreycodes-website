@@ -10,14 +10,19 @@ class Sponsors extends Component {
     return (
       <div id="Sponsors">
           <h1>We generate a 10x effect with every contribution received.</h1>
-          <h2>High quality developers are graduating from our program. <br/><br/>Non-profits will have more budget to do good.</h2>
+          <NavLink to='/fulltime'>
+            <h2>High quality developers are graduating from our program.</h2>
+          </NavLink>
+          <NavLink to='/fulltime'>
+            <h2>Non-profits will have more budget to do good.</h2>
+          </NavLink>
           <section className="howtohelp">
           <h1>We are preparing the developers of the future</h1>
           <p>Our students learn by doing. They prepare, code and improve web applications for good. By doing this, non-profits in British Columbia benefits of having low-cost websites and apps. At the same time, our students build a portfolio of real-wold experiences.</p>
           <p>Each place in our full time program costs about $4,000.00 to provide. We do our best to keep these costs low and cultivate high quality developers at the same time.</p>
-          <h1>Every year, we accept a limited amount of Sponsors</h1>
         </section>
         <section className="backers">
+            <h1>These companies are making a difference:</h1>
             <h2>Platinum Sponsor</h2>
             <p> -- Open -- </p>
             <h2>Gold Sponsors</h2>
