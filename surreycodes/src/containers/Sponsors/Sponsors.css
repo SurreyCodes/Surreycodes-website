@@ -1,15 +1,40 @@
-#Sponsors{
-    padding-top: 16px;
-}
-.calltoaction {
-    padding: 30px;
+#Sponsors {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.calltoaction {
+    padding: 120px 10% 60px 10%;
+    display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-color: var(--blue);
+    color: #FFFFFF;
 }
 .calltoaction img {
-    width: 20vmax;
-    height: 100%;
+    padding-right: 20px;
+    min-width: 60px;
+    max-width: 20%;
+    height: auto;
+}
+#Sponsors>h1{
+    align-self: center;
+    vertical-align: center;
+    text-align: center;
+    margin: 60px 0 0 0;
+    width: 100%;
+    padding: 2em 5%;
+    color: var(--gray);
+    background-color: var(--blue);
+}
+#Sponsors>h2{
+    text-align: center;
+    padding: 1em 5%;
+}
+.howtohelp {
+    padding: 0 5%;
+}
+.howtohelp p{
+    margin: 30px 5% 0 5%;
 }
