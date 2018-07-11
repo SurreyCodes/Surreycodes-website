@@ -8,7 +8,7 @@ class Hook extends Component {
         return <div id="hook">
             <div>
                 <h1>Peer to Peer Mentoring<br/>Tech Foundation</h1>
-                <NavLink to="/fulltime">
+                <NavLink to="/fulltimeprogram">
                 <button className="main-button">
                     Become a Developer
                 </button>

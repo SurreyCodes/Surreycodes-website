@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 import SurreyCodesMembers from '../../assets/SurreyCodesMembers.jpg'
-import Header from '../../components/Header/Header'
-import Footer from '../../components/Footer/Footer'
 import './FulltimeProgram.css'
 import Subscribe from '../../components/Subscribe/Subscribe'
 
@@ -44,7 +42,7 @@ class FulltimeProgram extends Component {
           <ol>
             <li>
               We host{' '}
-              <a href="https://www.meetup.com/SurreyCodes/" target="_blank">
+              <a href="https://www.meetup.com/SurreyCodes/" target="_blank" rel="noopener noreferrer" >
                 regular meetups
               </a>, make sure to attend.
             </li>
@@ -54,14 +52,14 @@ class FulltimeProgram extends Component {
             </li>
             <li>
               Join{' '}
-              <a href="https://goo.gl/forms/SEmsu7E0sDJxs3Uq2" target="_blank">
+              <a href="https://goo.gl/forms/SEmsu7E0sDJxs3Uq2" target="_blank" rel="noopener noreferrer">
                 our Slack Community
               </a>. Make sure to note that you are a full-time program applicant
               in your last answer.
             </li>
             <li>
               Open your{' '}
-              <a href="https://www.freecodecamp.org/" target="_blank">
+              <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
                 FreeCodeCamp account
               </a>. We require you to prepare your journey as a web developer by
               completing the following sections of FreeCodeCamp's curriculum:

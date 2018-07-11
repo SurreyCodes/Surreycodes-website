@@ -2,19 +2,6 @@
     display: flex;
     flex-direction: column;
 }
-
-.calltoaction {
-    padding: 120px 10% 60px 10%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: var(--blue);
-    color: #FFFFFF;
-}
-.calltoaction img {
-    display: none;
-}
 #Sponsors>h1{
     align-self: center;
     vertical-align: center;
@@ -42,16 +29,38 @@
 }
 .backers {
     padding: 1em 5%;
+    text-align: center;
 }
 .backers h2 {
     margin: 50px 0;
+    font-size: x-large;
 }
 .backers img:hover {
     transform: scale(1.2);
-    transition-duration: 0.25s;
+    transition-duration: 150ms;
     transition-delay: 2ms;
 }
-
+.calltoaction {
+    padding: 3em 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--blue);
+    color: #FFFFFF;
+}
+.calltoaction img {
+    display: none;
+}
+.nonprofit-referral {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 3em 10%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
 @media only screen and (min-width: 420px) {
     .calltoaction img {
         display: inherit;

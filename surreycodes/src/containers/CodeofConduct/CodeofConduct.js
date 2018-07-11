@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import Header from '../../components/Header/Header';
-import Footer from '../../components/Footer/Footer';
 import './CodeofConduct.css';
 
 
@@ -43,11 +41,9 @@ class CodeofConduct extends Component {
                 <h1>What to do in case of..</h1>
                 <p>Our organizers rely in all of us to keep watch.</p>
                 <p>If you think some of these rules are being broken by a particular member, please notify it to your
-                    closest
-                    Organizer. Help us keep this community open and friendly.</p>
+                    closest Organizer. Help us keep this community open and friendly.</p>
                 <p><strong>Sponsors are also subject to the anti-harassment policy. In particular, sponsors should not
-                    use
-                    sexualized images, or other material.</strong></p>
+                    use sexualized images, or other material.</strong></p>
                 <p>If you are being harassed, notice that someone else is being harassed, or have any other concerns,
                     please
                     contact an organizer immediately.</p>

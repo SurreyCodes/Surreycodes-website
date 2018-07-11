@@ -12,7 +12,7 @@ class Features extends Component {
     return(
         <div className="container">
           <div className="flex-card-container">
-            <Card location="/fulltime" identity="fulltime" button="Enroll Now" id="fulltime-card-image" image={Fulltime} text="Our Full Time Program" alternate="Full Time Program"/>
+            <Card location="/fulltimeprogram" identity="fulltime" button="Enroll Now" id="fulltime-card-image" image={Fulltime} text="Our Full Time Program" alternate="Full Time Program"/>
             <Card location="https://goo.gl/forms/SEmsu7E0sDJxs3Uq2" identity="slack" button="Join" image={Slack} text="Our Slack Channel" alternate="Slack" />
             <Card location="https://surreycodes.slack.com" identity="job" button="Search" image={Job} text="Jobs &nbsp;Available" alternate="Jobs" />
             <Card location="https://surreycodes.slack.com" identity="hack" button="Hackathon" image={Hack4Good} text="#Hack 4 Good" alternate="Hack 4 Good" />

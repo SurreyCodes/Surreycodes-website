@@ -11,10 +11,10 @@ class Sponsors extends Component {
     return (
       <div id="Sponsors">
           <h1>We generate a 10x effect with every contribution received.</h1>
-          <NavLink to='/fulltime'>
+          <NavLink to='/fulltimeprogram'>
             <h2>High quality developers are graduating from our program.</h2>
           </NavLink>
-          <NavLink to='/fulltime'>
+          <NavLink to='/fulltimeprogram'>
             <h2>Non-profits will have more budget to do good.</h2>
           </NavLink>
           <section className="howtohelp">
@@ -30,10 +30,10 @@ class Sponsors extends Component {
             </a>
             <h2>Gold Sponsors</h2>
             <a href="https://surreycodes.ca">
-                <img src={SponsorHolder} width="120" height="120" alt="Typow" />
+                <img src={SponsorHolder} width="110" height="110" alt="Typow" />
             </a>
             <a href="https://surreycodes.ca">
-                <img src={SponsorHolder} width="120" height="120" alt="Typow" />
+                <img src={SponsorHolder} width="110" height="110" alt="Typow" />
             </a>
             <h2>Silver Sponsors</h2>
             <a href="https://surreycodes.ca">
@@ -60,9 +60,9 @@ class Sponsors extends Component {
                 </h2>
         </section>
           <section className="nonprofit-referral">
-              <h3>Know a Non-Profit that could benefit from our program? tell them to submit a project</h3>
-              <NavLink to='/'>
-                  <button className="main-button">Non-Profits</button>
+              <h3>Know any Non-Profit that could benefit from our program? tell them to submit a project</h3>
+              <NavLink to='/nonprofitprogram'>
+                  <button className="main-button">NonProfitProgram</button>
               </NavLink>
           </section>
       </div>
