@@ -46,8 +46,10 @@
 .backers h2 {
     margin: 50px 0;
 }
-.backers img {
-
+.backers img:hover {
+    transform: scale(1.2);
+    transition-duration: 0.25s;
+    transition-delay: 2ms;
 }
 
 @media only screen and (min-width: 420px) {

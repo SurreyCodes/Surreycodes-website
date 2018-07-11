@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import IconSpeaker from '../../assets/Icon Speaker.svg'
 import Typow from '../../assets/Typow.svg'
 import BetaCollective from '../../assets/BetaCollective.svg'
+import SponsorHolder from '../../assets/SurreyCodesSponsor.svg'
 import './Sponsors.css'
 import { NavLink } from 'react-router-dom';
 
@@ -24,20 +25,32 @@ class Sponsors extends Component {
         <section className="backers">
             <h1>These companies are making a difference:</h1>
             <h2>Platinum Sponsor</h2>
-            <p> -- Open -- </p>
+            <a href="https://surreycodes.ca">
+                <img src={SponsorHolder} width="150" height="150" alt="Typow" />
+            </a>
             <h2>Gold Sponsors</h2>
-            <p> -- Open -- </p>
-            <p> -- Open -- </p>
+            <a href="https://surreycodes.ca">
+                <img src={SponsorHolder} width="120" height="120" alt="Typow" />
+            </a>
+            <a href="https://surreycodes.ca">
+                <img src={SponsorHolder} width="120" height="120" alt="Typow" />
+            </a>
             <h2>Silver Sponsors</h2>
-            <p> -- Open -- </p>
-            <p> -- Open -- </p>
-            <p> -- Open -- </p>
+            <a href="https://surreycodes.ca">
+                <img src={SponsorHolder} width="100" height="100" alt="Typow" />
+            </a>
+            <a href="https://surreycodes.ca">
+                <img src={SponsorHolder} width="100" height="100" alt="Typow" />
+            </a>
+            <a href="https://surreycodes.ca">
+                <img src={SponsorHolder} width="100" height="100" alt="Typow" />
+            </a>
             <h2>Meetup Sponsors</h2>
           <a href="http://betacollective.ca/">
-            <img src={BetaCollective} width="80" height="80" alt="Beta Collective" />
+            <img src={BetaCollective} width="100" height="100" alt="Beta Collective" />
           </a>
           <a href="https://typow.ca">
-            <img src={Typow} width="80" height="80" alt="Typow" />
+            <img src={Typow} width="100" height="100" alt="Typow" />
           </a>
         </section>
             <section className="calltoaction">
