@@ -17,9 +17,3 @@
     display: flex;
     flex-flow: column;
 }
-.about-flex-container h1{
-    flex: 1 1 0;
-}
-.about-flex-container p{
-    flex: 1 1 0;
-}

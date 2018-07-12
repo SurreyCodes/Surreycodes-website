@@ -6,7 +6,7 @@
     height: 310px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
     margin: 0;
 }
